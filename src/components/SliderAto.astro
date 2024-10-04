@@ -1,0 +1,125 @@
+<div class="relative w-full h-screen overflow-hidden">
+    <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+        <div class="flex-shrink-0 w-screen h-screen flex items-center justify-center relative">
+            <img src="/images/slider/slide1.png" alt="Experiencia y Calidad" class="w-full h-full object-cover opacity-85">
+            <div class="absolute inset-0 bg-black bg-opacity-95"></div>
+            <div class="absolute text-white text-center w-full px-4 max-w-3xl">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    Experiencia y Calidad
+                </h1>
+                <p class="text-base md:text-lg lg:text-xl md:py-2 mb-8">
+                    Con más de 15 años de experiencia, Estructura Metálica Ato & Peña ofrece soluciones metálicas para remolques y carretas, hechas a la medida de cada cliente. Garantizamos calidad, eficiencia y el mejor soporte técnico del sector.
+                </p>
+                <a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." class="bg-gradient-to-r from-[#70d959] to-green-500 hover:from-green-900 hover:to-green-700 text-black hover:text-white font-bold py-3 px-6 md:px-8 rounded-2xl transition duration-300" target="_blank">
+                    Cotizar ahora
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="flex-shrink-0 w-screen h-screen flex items-center justify-center relative">
+            <img src="/images/slider/slide2.png" alt="Slider 2" class="w-full h-full object-cover opacity-85">
+            <div class="absolute inset-0 bg-black bg-opacity-95"></div>
+            <div class="absolute text-white text-center w-full px-4 max-w-3xl">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    Carretas Industriales
+                </h1>
+                <p class="text-base md:text-lg lg:text-xl md:py-2 mb-6">
+                    Fabricamos carretas robustas, diseñadas para soportar las exigencias de empresas de construcción y transporte. Con materiales de alta calidad, aseguramos máxima durabilidad y rendimiento en el traslado de cargas pesadas.
+                </p>
+                <a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." class="bg-gradient-to-r from-[#70d959] to-green-500 hover:from-green-900 hover:to-green-700 text-black hover:text-white font-bold py-3 px-6 md:px-8 rounded-2xl transition duration-300" target="_blank">
+                    Cotizar ahora
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="flex-shrink-0 w-screen h-screen flex items-center justify-center relative">
+            <img src="/images/slider/slide3.png" alt="Slider 3" class="w-full h-full object-cover opacity-85">
+            <div class="absolute inset-0 bg-black bg-opacity-95"></div>
+            <div class="absolute text-white text-center w-full px-4 max-w-3xl">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    Remolques Personalizados
+                </h1>
+                <p class="text-base md:text-lg lg:text-xl md:py-2 mb-6">
+                    Diseñamos y fabricamos remolques especializados para empresas de telecomunicaciones. Adaptables y resistentes, nuestros remolques facilitan el traslado seguro de bobinas y equipos, garantizando eficiencia en cada operación.
+                </p>
+                <a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." class="bg-gradient-to-r from-[#70d959] to-green-500 hover:from-green-900 hover:to-green-700 text-black hover:text-white font-bold py-3 px-6 md:px-8 rounded-2xl transition duration-300" target="_blank">
+                    Cotizar ahora
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-[#70d959] text-black p-2 rounded-full focus:outline-none hover:bg-opacity-75">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+    </button>
+    <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-[#70d959] text-black p-2 rounded-full focus:outline-none hover:bg-opacity-75">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+    </button>
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        <button class="indicator w-3 h-3 bg-gradient-to-r from-[#70d959] to-green-700 rounded-full focus:outline-none"></button>
+        <button class="indicator w-3 h-3 bg-gradient-to-r from-[#70d959] to-green-700 rounded-full focus:outline-none"></button>
+        <button class="indicator w-3 h-3 bg-gradient-to-r from-[#70d959] to-green-700 rounded-full focus:outline-none"></button>
+    </div>
+</div>
+
+<script>
+    const slider = document.getElementById('slider');
+    const nextButton = document.getElementById('next');
+    const prevButton = document.getElementById('prev');
+    const indicators = document.querySelectorAll('.indicator');
+
+    let currentIndex = 0;
+    const totalSlides = slider.children.length;
+    let slideInterval;
+
+    function updateSliderPosition() {
+        slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+        updateIndicators();
+    }
+
+    function updateIndicators() {
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('opacity-100', index === currentIndex);
+            indicator.classList.toggle('opacity-50', index !== currentIndex);
+        });
+    }
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateSliderPosition();
+        resetInterval();
+    });
+
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateSliderPosition();
+        resetInterval();
+    });
+
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            currentIndex = index;
+            updateSliderPosition();
+            resetInterval();
+        });
+    });
+
+    function startSlideInterval() {
+        slideInterval = setInterval(() => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSliderPosition();
+        }, 5000);
+    }
+
+    function resetInterval() {
+        clearInterval(slideInterval);
+        startSlideInterval();
+    }
+
+    startSlideInterval();
+
+</script>

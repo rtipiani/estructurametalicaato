@@ -1,0 +1,60 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description } = Astro.props;
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from '../components/Footer.astro';
+
+const siteName = "Estructura Metálica Ato & Peña";
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="keywords" content="estructuras metálicas, experiencia en estructuras metálicas, seguridad en entregas, confianza en productos metálicos, empresa de estructuras metálicas, soluciones metálicas, proyectos de construcción, estructuras metálicas a nivel nacional">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title} | {siteName}</title>
+	</head>
+	<body class="bg-gray-100">
+		<slot />
+	</body>
+	<a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition duration-300">
+		<i class="fab fa-whatsapp fa-2x"></i>
+	</a>
+	<Footer/>
+</html>
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>

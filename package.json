@@ -1,0 +1,19 @@
+{
+  "name": "estructurametalicaato",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "'": "file:awesome.me/kit-fd81123249@latest'",
+    "@astrojs/tailwind": "^5.1.1",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "astro": "^4.15.9",
+    "tailwindcss": "^3.4.13"
+  }
+}

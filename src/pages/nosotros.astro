@@ -1,0 +1,218 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NavBar from "../components/NavBar.astro";
+---
+
+<Layout title="Nosotros">
+    <NavBar/>
+    <section class="relative bg-black">
+        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-10" />
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="bg-white bg-opacity-85 p-4 rounded-lg shadow-lg">
+                <nav class="flex space-x-4 text-gray-600">
+                    <a href="/" class="hover:text-green-600">Inicio</a>
+                    <span>/</span>
+                    <a class="hover:text-green-600">Nosotros</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto text-center px-4">
+            <h2 class="text-5xl text-green-900 font-extrabold mb-4">Nosotros</h2>
+            <p class="mb-8 text-gray-600 leading-relaxed">
+                Somos una empresa comprometida con la excelencia en la prestación de servicios, integrando innovación, calidad y una firme orientación hacia la satisfacción del cliente.
+            </p>
+            <!-- Misión y Visión -->
+            <div class="flex flex-col lg:flex-row justify-center space-y-8 lg:space-y-0 lg:space-x-8">
+                <div class="bg-white shadow-lg rounded-lg w-full lg:w-1/2 overflow-hidden">
+                    <img src="/images/mision.png" alt="Misión" class="w-full h-60 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-2xl text-green-900 font-extrabold mb-1">Nuestra Misión</h3>
+                        <p class="text-gray-600 leading-6">
+                            Diseñar, fabricar y montar estructuras metálicas de alta calidad que brinden resistencia, estabilidad y seguridad a nuestros proyectos. Ofrecemos soluciones personalizadas trabajando con los más altos estándares de calidad y eficiencia.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg w-full lg:w-1/2 overflow-hidden">
+                    <img src="/images/vision.png" alt="Visión" class="w-full h-60 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-2xl text-green-900 font-extrabold mb-1">Nuestra Visión</h3>
+                        <p class="text-gray-600 leading-6">
+                            Ser reconocidos como líderes en soluciones de estructuras metálicas, destacando por nuestra innovación, calidad y seguridad, expandiendo nuestra presencia a nivel internacional, siempre enfocados en la satisfacción del cliente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-100 mt-16 mb-10">
+        <div class="max-w-7xl mx-auto text-center px-4">
+            <h2 class="text-4xl font-extrabold mb-12 text-green-800">
+                Nuestros Pilares
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Pilar 1 -->
+                <div class="relative bg-white p-8 rounded-xl text-center shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute inset-0 bg-green-50 opacity-20"></div>
+                    <div class="relative z-10">
+                        <i class="fas fa-check-circle text-green-800 text-5xl mb-6 transition duration-300 transform hover:scale-125"></i>
+                        <h4 class="text-2xl font-semibold mb-4 text-gray-800">Calidad</h4>
+                        <p class="text-gray-700 leading-relaxed mb-8">Nos comprometemos a ofrecer productos y servicios de la más alta calidad, superando las expectativas de nuestros clientes.</p>
+                    </div>
+                </div>
+                <!-- Pilar 2 -->
+                <div class="relative bg-white p-8 rounded-xl text-center shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute inset-0 bg-green-50 opacity-20"></div>
+                    <div class="relative z-10">
+                        <i class="fas fa-lightbulb text-green-800 text-5xl mb-6 transition duration-300 transform hover:scale-125"></i>
+                        <h4 class="text-2xl font-semibold mb-4 text-gray-800">Innovación</h4>
+                        <p class="text-gray-700 leading-relaxed mb-8">Exploramos continuamente nuevas ideas y soluciones para mejorar nuestros productos y procesos.</p>
+                    </div>
+                </div>
+                <!-- Pilar 3 -->
+                <div class="relative bg-white p-8 rounded-xl text-center shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute inset-0 bg-green-50 opacity-20"></div>
+                    <div class="relative z-10">
+                        <i class="fas fa-handshake text-green-800 text-5xl mb-6 transition duration-300 transform hover:scale-125"></i>
+                        <h4 class="text-2xl font-semibold mb-4 text-gray-800">Compromiso</h4>
+                        <p class="text-gray-700 leading-relaxed mb-8">Nos comprometemos con el éxito de nuestros clientes, trabajando de la mano para alcanzar sus metas.</p>
+                    </div>
+                </div>
+                <!-- Pilar 4 -->
+                <div class="relative bg-white p-8 rounded-xl text-center shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute inset-0 bg-green-50 opacity-20"></div>
+                    <div class="relative z-10">
+                        <i class="fas fa-leaf text-green-800 text-5xl mb-6 transition duration-300 transform hover:scale-125"></i>
+                        <h4 class="text-2xl font-semibold mb-4 text-gray-800">Sostenibilidad</h4>
+                        <p class="text-gray-700 leading-relaxed mb-8">Promovemos prácticas sostenibles que benefician al medio ambiente y nuestras comunidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-center mb-12 text-green-800">
+                Marcas <br> que confían en nosotros
+            </h2>
+            <div class="relative">
+                <!-- Slider Container -->
+                <div class="slider overflow-hidden">
+                    <div class="slider-track flex transition-transform duration-500 ease-in-out">
+                        <!-- Marca 1 -->
+                        <div class="flex-none w-full md:w-1/4 lg:w-1/5 p-4">
+                            <img src="/images/clientes/oca-global.png" alt="Oca Global" class="mx-auto h-35">
+                        </div>
+                        <!-- Marca 2 -->
+                        <div class="flex-none w-full md:w-1/4 lg:w-1/5 p-4">
+                            <img src="/images/clientes/carso.png" alt="Carso" class="mx-auto h-35">
+                        </div>
+                        <!-- Marca 3 -->
+                        <div class="flex-none w-full md:w-1/4 lg:w-1/5 p-4">
+                            <img src="/images/clientes/peru-vac.png" alt="Perú Vac" class="mx-auto h-35">
+                        </div>
+                        <!-- Marca 4 -->
+                        <div class="flex-none w-full md:w-1/4 lg:w-1/5 p-4">
+                            <img src="/images/clientes/nautilus.png" alt="Nautilus" class="mx-auto h-35">
+                        </div>
+                        <!-- Marca 5 -->
+                        <div class="flex-none w-full md:w-1/4 lg:w-1/5 p-4">
+                            <img src="/images/clientes/yofc.png" alt="Yofc" class="mx-auto h-35">
+                        </div>
+                        <!-- Marca 6 -->
+                        <div class="flex-none w-full md:w-1/4 lg:w-1/5 p-4">
+                            <img src="/images/clientes/maquinarias-michel.png" alt="Maquinarias Michel" class="mx-auto h-35">
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles del Slider -->
+                <button id="prev" class="text-green-800 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-1/2">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next" class="text-green-800 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/2">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+</Layout>
+<script>
+    let sliderTrack = document.querySelector('.slider-track') as HTMLElement;
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+
+let currentIndex = 0;
+let itemsVisible = 1; // Cambia esto a 1 por defecto
+const totalItems = document.querySelectorAll('.slider-track > div').length;
+
+function updateSlider() {
+    const slideWidth = 100 / itemsVisible; // Calcular el ancho del slide
+    const newTransformValue = -(currentIndex * slideWidth);
+    sliderTrack.style.transform = `translateX(${newTransformValue}%)`;
+}
+
+// Ajustar itemsVisible según el tamaño de pantalla
+function adjustItemsVisible() {
+    if (window.innerWidth >= 1024) {
+        itemsVisible = 5; // lg y xl
+    } else if (window.innerWidth >= 768) {
+        itemsVisible = 4; // md
+    } else {
+        itemsVisible = 1; // sm
+    }
+}
+
+nextButton.addEventListener('click', () => {
+    if (currentIndex < totalItems - itemsVisible) {
+        currentIndex++;
+    } else {
+        currentIndex = 0; // Regresar al inicio si se alcanza el final
+    }
+    updateSlider();
+});
+
+prevButton.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+    } else {
+        currentIndex = totalItems - itemsVisible; // Ir al final si estamos al principio
+    }
+    updateSlider();
+});
+
+// Ajustar la cantidad de items visibles en el redimensionamiento de la ventana
+window.addEventListener('resize', adjustItemsVisible);
+adjustItemsVisible(); // Inicializar al cargar
+
+// Función para iniciar la reproducción automática
+let autoPlayInterval;
+function startAutoPlay() {
+    autoPlayInterval = setInterval(() => {
+        if (currentIndex < totalItems - itemsVisible) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; // Regresar al inicio si se alcanza el final
+        }
+        updateSlider();
+    }, 3000); // Cambia cada 3 segundos
+}
+
+// Función para detener la reproducción automática
+function stopAutoPlay() {
+    clearInterval(autoPlayInterval);
+}
+
+// Iniciar la reproducción automática al cargar
+startAutoPlay();
+
+// Detener la reproducción automática cuando el usuario interactúa con los botones
+nextButton.addEventListener('mouseenter', stopAutoPlay);
+prevButton.addEventListener('mouseenter', stopAutoPlay);
+nextButton.addEventListener('mouseleave', startAutoPlay);
+prevButton.addEventListener('mouseleave', startAutoPlay);
+
+// También detener cuando el usuario pasa el mouse sobre el slider
+sliderTrack.addEventListener('mouseenter', stopAutoPlay);
+sliderTrack.addEventListener('mouseleave', startAutoPlay);
+</script>

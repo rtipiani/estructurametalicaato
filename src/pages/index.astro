@@ -1,0 +1,303 @@
+---
+const images = [
+	'/images/galeria/gal-estructurametalica0.png',
+	'/images/galeria/gal-estructurametalica1.png',
+	'/images/galeria/gal-estructurametalica2.png',
+	'/images/galeria/gal-estructurametalica3.png',
+	'/images/galeria/gal-estructurametalica4.png',
+	'/images/galeria/gal-estructurametalica5.png',
+	'/images/galeria/gal-estructurametalica6.png',
+	'/images/galeria/gal-estructurametalica7.png',
+	'/images/galeria/gal-estructurametalica8.png',
+	'/images/galeria/gal-estructurametalica9.png',
+	'/images/galeria/gal-estructurametalica10.png',
+	'/images/galeria/gal-estructurametalica11.png',
+	'/images/galeria/gal-estructurametalica12.png',
+	'/images/galeria/gal-estructurametalica13.png',
+	'/images/galeria/gal-estructurametalica14.png',
+];
+
+import Layout from '../layouts/Layout.astro';
+import NavBar from '../components/NavBar.astro';
+import SliderAto from '../components/SliderAto.astro';
+---
+
+<Layout title="inicio" description="Con más de 15 años de experiencia en estructuras metálicas, nuestra empresa ofrece seguridad y confianza en cada uno de nuestros entregables a nivel nacional. Descubre soluciones metálicas de alta calidad para tus proyectos.">
+	<NavBar/>
+	<SliderAto/>
+	<section id="counter-section" class="bg-gradient-to-b from-gray-100 to-gray-300 py-12">
+		<div class="container mx-auto px-4 md:px-8 lg:px-4">
+			<h2 class="text-4xl font-bold text-center py-8 text-green-900">
+				Fortalezas de Nuestro Equipo Especializado
+			</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-12">
+				<div class="bg-white shadow-xl text-green-900 rounded-lg p-8 text-center transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-gray-50">
+					<div class="relative inline-block">
+						<i class="fas fa-users text-6xl bg-gradient-to-r from-[#70d959] to-[#34b36e] bg-clip-text text-transparent"></i>
+					</div>
+					<h3 class="text-5xl font-bold mb-4" id="count1">
+						0
+					</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Amplia cartera <br> de clientes satisfechos
+					</p>
+				</div>
+				<div class="bg-white shadow-xl text-green-900 rounded-lg p-8 text-center transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-gray-50 hover:text-green-800">
+					<div class="relative inline-block">
+						<i class="fas fa-clock text-6xl bg-gradient-to-r from-[#70d959] to-[#34b36e] bg-clip-text text-transparent"></i>
+					</div>
+					<h3 class="text-5xl font-bold mb-4" id="count2">
+						0
+					</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Años de <br> experiencia nos respaldan
+					</p>
+				</div>
+				<div class="bg-white shadow-xl text-green-900 rounded-lg p-8 text-center transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-gray-50 hover:text-green-800">
+					<div class="relative inline-block">
+						<i class="fas fa-check-circle text-6xl bg-gradient-to-r from-[#70d959] to-[#34b36e] bg-clip-text text-transparent"></i>
+					</div>
+					<h3 class="text-5xl font-bold mb-4" id="count3">
+						0
+					</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Control de Calidad <br> en fabricación y producción
+					</p>
+				</div>
+				<div class="bg-white shadow-xl text-green-900 rounded-lg p-8 text-center transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-gray-50 hover:text-green-800">
+					<div class="relative inline-block">
+						<i class="fas fa-wrench text-6xl bg-gradient-to-r from-[#70d959] to-[#34b36e] bg-clip-text text-transparent"></i>
+					</div>
+					<h3 class="text-5xl font-bold mb-4" id="count4">
+						0
+					</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Equipo especializado <br> en MIG/MAG
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-gray-50 py-28">
+		<div class="container mx-auto px-6 lg:px-12">
+			<div class="text-center mb-12">
+				<h2 class="text-4xl font-extrabold text-green-900 leading-tight mb-4">
+					¿Buscas Montaje de Estructura Metálica para tu Negocio?
+				</h2>
+				<p class="text-xl text-gray-600 max-w-4xl mx-auto">
+					Somos expertos en la fabricación de estructuras metálicas de alta calidad, diseñadas para brindar resistencia, durabilidad y estabilidad.
+					<br>
+					¡Permítenos ayudarte a construir lo que necesitas!
+				</p>
+			</div>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
+				<div class="group floating p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+					<div class="mb-6">
+						<img src="/images/rigida.png" alt="Estructura Rígida" class="mx-auto w-16 h-16 transition-transform duration-300 group-hover:rotate-6">
+					</div>
+					<h3 class="text-2xl font-semibold text-green-900 mb-4 group-hover:text-green-950 transition-colors duration-300">
+						Estructura Rígida
+					</h3>
+					<p class="text-gray-500">
+						Cargas correctamente distribuidas para evitar deformaciones.
+					</p>
+				</div>
+				<!-- Alta Resistencia -->
+				<div class="group floating p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+					<div class="mb-6">
+						<img src="/images/resistencia.png" alt="Alta Resistencia" class="mx-auto w-16 h-16 transition-transform duration-300 group-hover:rotate-6">
+					</div>
+					<h3 class="text-2xl font-semibold text-green-900 mb-4 group-hover:text-green-950 transition-colors duration-300">
+						Alta Resistencia
+					</h3>
+					<p class="text-gray-500">
+						Nuestro material soporta las fuerzas más exigentes.
+					</p>
+				</div>
+				<!-- Estabilidad -->
+				<div class="group floating p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+					<div class="mb-6">
+						<img src="/images/estabilidad.png" alt="Estabilidad" class="mx-auto w-16 h-16 transition-transform duration-300 group-hover:rotate-6">
+					</div>
+					<h3 class="text-2xl font-semibold text-green-900 mb-4 group-hover:text-green-950 transition-colors duration-300">
+						Estabilidad
+					</h3>
+					<p class="text-gray-500">
+						Estructura estable sin peligro de desplome.
+					</p>
+				</div>
+				<!-- Uniformidad -->
+				<div class="group floating p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+					<div class="mb-6">
+						<img src="/images/uniformidad.png" alt="Uniformidad" class="mx-auto w-16 h-16 transition-transform duration-300 group-hover:rotate-6">
+					</div>
+					<h3 class="text-2xl font-semibold text-green-900 mb-4 group-hover:text-green-950 transition-colors duration-300">
+						Uniformidad
+					</h3>
+					<p class="text-gray-500">
+						Sin cambios de uniformidad en toda la estructura.
+					</p>
+				</div>
+				<!-- Durabilidad -->
+				<div class="group floating p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+					<div class="mb-6">
+						<img src="/images/durabilidad.png" alt="Durabilidad" class="mx-auto w-16 h-16 transition-transform duration-300 group-hover:rotate-6">
+					</div>
+					<h3 class="text-2xl font-semibold text-green-900 mb-4 group-hover:text-green-950 transition-colors duration-300">
+						Durabilidad
+					</h3>
+					<p class="text-gray-500">
+						Diseñadas para perdurar con el tiempo.
+					</p>
+				</div>
+				<!-- Soldadura MIG -->
+				<div class="group floating p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+					<div class="mb-6">
+						<img src="/images/migmag.png" alt="Soldadura MIG" class="mx-auto w-16 h-16 transition-transform duration-300 group-hover:rotate-6">
+					</div>
+					<h3 class="text-2xl font-semibold text-green-900 mb-4 group-hover:text-green-950 transition-colors duration-300">
+						Soldadura MIG
+					</h3>
+					<p class="text-gray-500">
+						Alta productividad y precisión en la soldadura.
+					</p>
+				</div>
+			</div>
+			<!-- Botón de llamada a la acción -->
+			<div class="mt-16 text-center">
+				<a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios."
+				class="inline-flex items-center justify-center bg-green-900 text-white text-lg font-semibold py-4 px-10
+				rounded-full shadow-lg transition-transform duration-300 ease-in-out
+				hover:bg-[#70d959] hover:text-black hover:shadow-xl hover:scale-110
+				transform active:scale-95 active:translate-y-1" target="_blank">
+					Cotiza Ahora
+					<i class="fab fa-whatsapp ml-2"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="bg-gray-100 py-12">
+		<div class="container mx-auto px-6 lg:px-12">
+			<!-- Título de la galería -->
+			<h2 class="text-4xl font-extrabold text-center mb-12 text-green-900">Galería <br> de Proyectos</h2>
+			<!-- Contenedor del Slider -->
+			<div class="relative overflow-hidden">
+				<div id="gallery" class="flex transition-transform duration-500 ease-in-out">
+					{images.map(image => (
+						<div class="min-w-[100%] sm:min-w-[100%] md:min-w-[33.33%] lg:min-w-[20%] p-2">
+							<div class="bg-green-600 rounded-lg border-4 border-transparent transition duration-300 ease-in-out shadow-lg
+										hover:bg-gradient-to-r hover:from-[#70d959] hover:to-[#5bb447] hover:border-transparent
+										border-opacity-0 hover:shadow-lg">
+								<img src={image} alt="Proyecto" loading="lazy" class="w-full object-contain rounded-md" />
+							</div>
+						</div>
+					))}
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Contador
+        const counters = [
+            { element: document.getElementById('count1'), endValue: 300, duration: 2000, symbol: '+' },
+            { element: document.getElementById('count2'), endValue: 15, duration: 2000, symbol: '%' },
+            { element: document.getElementById('count3'), endValue: 100, duration: 2000, symbol: '%' },
+            { element: document.getElementById('count4'), endValue: 25, duration: 2000, symbol: '+' },
+        ];
+
+        let isCounting = false;
+
+        const startCounting = () => {
+            if (isCounting) return; // Evita que inicie múltiples contadores
+            isCounting = true;
+
+            counters.forEach(counter => {
+                let startValue = 0;
+                const increment = counter.endValue / (counter.duration / 100);
+                const interval = setInterval(() => {
+                    if (startValue < counter.endValue) {
+                        startValue += increment;
+                        counter.element.innerText = Math.floor(startValue).toString() + counter.symbol; // Agrega el símbolo correspondiente
+                    } else {
+                        counter.element.innerText = counter.endValue.toString() + counter.symbol; // Agrega el símbolo correspondiente
+                        clearInterval(interval);
+                    }
+                }, 100);
+            });
+        };
+
+        const counterSection = document.getElementById('counter-section');
+
+        // Crear el observer para el contador
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    startCounting();
+                    observer.unobserve(counterSection); // Deja de observar una vez que se ejecuta el contador
+                }
+            });
+        });
+
+        // Comienza a observar la sección
+        observer.observe(counterSection);
+
+        // Configuración del slider de imágenes
+        const gallery = document.getElementById('gallery');
+        const images = document.querySelectorAll('#gallery > div');
+        const totalImages = images.length;
+        let currentIndex = 0;
+
+        // Función para obtener el número de ítems a mostrar según la pantalla
+        const getItemsToShow = () => {
+            if (window.innerWidth >= 1024) {
+                return 5; // lg
+            } else if (window.innerWidth >= 768) {
+                return 3; // md
+            } else {
+                return 1; // sm
+            }
+        };
+
+        let itemsToShow = getItemsToShow();
+
+        // Función para actualizar la galería
+        const updateGallery = () => {
+            const offset = -currentIndex * (100 / itemsToShow);
+            gallery.style.transform = `translateX(${offset}%)`;
+        }
+
+        const nextImage = () => {
+			currentIndex += itemsToShow;
+			if (currentIndex >= totalImages) {
+				currentIndex = 0;
+			}
+			updateGallery();
+		};
+
+        // Reproducción automática
+		let intervalTime = 3000;
+		let autoPlay = setInterval(nextImage, intervalTime);
+
+		// Actualizar items a mostrar según el tamaño de la pantalla
+		window.addEventListener('resize', () => {
+			itemsToShow = getItemsToShow();
+			updateGallery();
+		});
+    });
+</script>
+<style>
+    .floating {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px); /* Ajusta este valor para mayor o menor elevación */
+        }
+    }
+</style>

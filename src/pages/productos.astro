@@ -1,0 +1,190 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NavBar from "../components/NavBar.astro";
+
+const DEFAULT_DESCRIPTION = 'Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.';
+
+const products = [
+    {
+        name: 'Porta',
+        name2: 'Bobina con Winche',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/portabobina-conwinche.png',
+    },
+    {
+        name: 'Porta',
+        name2: 'Bobina Fijo',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/portabobina-fijo.png',
+    },
+    {
+        name: 'Carreta',
+        name2: 'para Cuatrimoto',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-cuatrimoto.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Industrial Multiuso',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/remolque-industrial-multiuso.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Agrícola',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-agricola.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Industrial',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrial.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Industrial Doble Eje',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrial-dobleeje.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Multifunción',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrial-multifuncion.png',
+    },
+    {
+        name: 'Carreta',
+        name2: 'Agrícola',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-agricola-azul.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Industrial Doble Eje',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrial-dobleeje-rojo.png',
+    },
+    {
+        name: 'Plataforma',
+        name2: 'Autoniveladora',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-plataforma-autoniveladora.png',
+    },
+    {
+        name: 'Industrial',
+        name2: 'Doble Eje',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrialdobleeje.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Industrial Doble Eje',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrial-dobleeje-negro.png',
+    },
+    {
+        name: 'Industrial',
+        name2: 'Doble Eje',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrialdobleejenegro.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'para Compresor',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-para-compresor.png',
+    },
+    {
+        name: 'Porta',
+        name2: 'Escalera 24, 28 y 32',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-porta-escalera.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'para Minicargador',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-minicargador-frontal.png',
+    },
+    {
+        name: 'Remolque',
+        name2: 'Agrícola y Multiuso',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-industrial-multiuso.png',
+    },
+    {
+        name: 'Porta Tanque',
+        name2: 'IBC 1 ó 2 Tanques',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-para-tanque.png',
+    },
+    {
+        name: 'Carreta',
+        name2: 'Elevador Tijera',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-elevador-tijera.png',
+    },
+    {
+        name: 'Carreta',
+        name2: 'Para Minicargador',
+        description: DEFAULT_DESCRIPTION,
+        imageUrl: '/images/carreta-minicargador.png',
+    }
+];
+---
+
+<Layout title="Productos">
+    <NavBar />
+    <section class="relative bg-black">
+        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-10" />
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="bg-white bg-opacity-85 p-4 rounded-lg shadow-lg">
+                <nav class="flex space-x-4 text-gray-600">
+                    <a href="/" class="hover:text-green-600">Inicio</a>
+                    <span>/</span>
+                    <a class="hover:text-green-600">Productos</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {products.map(product => (
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                        <div class="aspect-w-1 aspect-h-1">
+                            <img src={product.imageUrl} alt={product.name} class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-4 sm:p-6 md:p-8">
+                            <h3 class="text-lg text-center sm:text-xl md:text-2xl text-green-900 font-semibold mb-2">
+                                {product.name} <br /> {product.name2}
+                            </h3>
+                            <p class="text-xs text-center sm:text-base text-gray-600 mb-4 leading-tight">
+                                {product.description}
+                            </p>
+                            <a href="#" data-product-name={`${product.name} ${product.name2}`} class="whatsapp-button block text-center bg-green-900 text-white px-4 py-2 rounded-full hover:bg-green-950 transition duration-300 mt-8 text-sm sm:text-base">
+                                Solicitar Cotización
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    </section>
+</Layout>
+<script>
+    const whatsappButtons = document.querySelectorAll('.whatsapp-button');
+    const phoneNumber = '+51995374449';
+
+    whatsappButtons.forEach(button => {
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            const productName = button.getAttribute('data-product-name');
+            const message = `Hola *Estructura Metálica Ato & Peña*, estoy interesado en el producto: *${productName}*. Me gustaría solicitar una cotización.`;
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    });
+</script>

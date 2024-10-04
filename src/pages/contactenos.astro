@@ -1,0 +1,145 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NavBar from "../components/NavBar.astro";
+---
+
+<Layout title="Contáctenos">
+    <NavBar/>
+    <section class="relative bg-black">
+        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-10" />
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="bg-white bg-opacity-85 p-4 rounded-lg shadow-lg">
+                <nav class="flex space-x-4 text-gray-600">
+                    <a href="/" class="hover:text-green-600">Inicio</a>
+                    <span>/</span>
+                    <a class="hover:text-green-600">Contáctenos</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4 lg:px-0">
+            <h2 class="text-4xl sm:text-4xl md:text-3xl lg:text-5xl font-extrabold text-green-900 text-center mb-4">
+                Contáctanos
+            </h2>
+            <p class="mb-12 text-lg text-gray-600 text-center max-w-2xl mx-auto">
+                Estamos aquí para ayudarte. <br> Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
+            </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <form action="#" method="POST" class="space-y-6" aria-label="Formulario de contacto">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-bold mb-1 text-green-900">
+                                    Nombre y Apellido:
+                                </label>
+                                <input type="text" id="name" placeholder="Nombres y Apellidos" required
+                                    class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
+                                    aria-required="true" aria-label="Nombre ó Razón Social" />
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-bold mb-1 text-green-900">
+                                    Correo Electrónico:
+                                </label>
+                                <input type="email" id="email" placeholder="correo@ejemplo.com" required
+                                    class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
+                                    aria-required="true" aria-label="Correo electrónico" />
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-bold mb-1 text-green-900">
+                                    Teléfono:
+                                </label>
+                                <input type="tel" id="phone" placeholder="Número de teléfono" required
+                                    class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
+                                    aria-required="true" aria-label="Número de teléfono" />
+                            </div>
+                            <div>
+                                <label for="ruc" class="block text-sm font-bold mb-1 text-green-900">
+                                    Número de RUC:
+                                </label>
+                                <input type="text" id="ruc" placeholder="Número de RUC" required
+                                    class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
+                                    aria-required="true" aria-label="Número de RUC" />
+                            </div>
+                            <div class="sm:col-span-2">
+                                <label for="razon-social" class="block text-sm font-bold mb-1 text-green-900">
+                                    Razón Social:
+                                </label>
+                                <input type="text" id="razon-social" placeholder="Razón Social de la empresa" required
+                                    class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
+                                    aria-required="true" aria-label="Razón social" />
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-bold mb-1 text-green-900">
+                                Mensaje:
+                            </label>
+                            <textarea id="message" rows="5" placeholder="Escribe tu mensaje aquí..." required
+                                class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
+                                aria-required="true" aria-label="Mensaje"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="bg-green-950 text-white py-3 px-6 rounded-lg w-full hover:bg-green-900 transition duration-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+                <div class="bg-white rounded-lg p-6 sm:p-8 md:p-10 lg:p-12">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-4 text-green-900">
+                        Información de Contacto
+                    </h3>
+                    <p class="mb-1 flex items-center">
+                        <i class="fas fa-phone-alt mr-2 text-green-900"></i>
+                        <span class="font-bold">Teléfono:</span>
+                    </p>
+                    <p class="mb-2 ml-4 text-gray-600 text-xs sm:text-sm md:text-base">
+                        (+51) 995 374 449
+                    </p>
+                    <p class="mb-1 flex items-center">
+                        <i class="fas fa-map-marker-alt mr-2 text-green-900"></i>
+                        <span class="font-bold">Dirección:</span>
+                    </p>
+                    <p class="mb-2 ml-4 text-gray-600 text-xs sm:text-sm md:text-base">
+                        Jr. Vizcardo y Guzman 448, San Martín de Porres.
+                    </p>
+                    <p class="mb-1 flex items-center">
+                        <i class="fas fa-clock mr-2 text-green-900"></i>
+                        <span class="font-bold">Horario de Atención:</span>
+                    </p>
+                    <p class="mb-2 ml-4 text-gray-600 text-xs sm:text-sm md:text-base">
+                        Lunes a Sábado: 8:00 AM - 7:00 PM
+                    </p>
+                    <p class="mb-1 flex items-center">
+                        <i class="fas fa-envelope mr-2 text-green-900"></i>
+                        <span class="font-bold">Correo Electrónico:</span>
+                    </p>
+                    <p class="mb-2 ml-4 text-gray-600 text-xs sm:text-sm md:text-base leading-tight">
+                        ventas@estructurametalicaato.com
+                    </p>
+                    <div class="flex flex-wrap space-x-2 mt-4">
+                        <a href="https://www.facebook.com/estructurametalicaato/" class="text-green-950 hover:text-green-900 transition" target="_blank">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@estructurametalicaato" class="text-green-950 hover:text-green-900 transition" target="_blank">
+                            <i class="fab fa-tiktok fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/estructura-metalica-ato-pe%C3%B1a-eirl-6b5727318/?originalSubdomain=pe" class="text-green-950 hover:text-green-900 transition" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/estructurametalicaato/" class="text-green-950 hover:text-green-900 transition" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCtYE-G2eX4mhoZJhUExGT7Q" class="text-green-950 hover:text-green-900 transition" target="_blank">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white">
+        <div class="w-full h-96 rounded-lg overflow-hidden">
+            <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15610.204705179101!2d-77.0901042!3d-12.0055272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf7544ddeaef%3A0xb819d1eb27df07f3!2sEstructura%20Met%C3%A1lica%20Ato%20%26%20Pe%C3%B1a!5e0!3m2!1ses!2spe!4v1727418377604!5m2!1ses!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</Layout>

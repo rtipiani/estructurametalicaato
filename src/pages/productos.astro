@@ -1,143 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import NavBar from "../components/NavBar.astro";
-
-const DEFAULT_DESCRIPTION = 'Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.';
-
-const products = [
-    {
-        name: 'Porta',
-        name2: 'Bobina con Winche',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/portabobina-conwinche.png',
-    },
-    {
-        name: 'Porta',
-        name2: 'Bobina Fijo',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/portabobina-fijo.png',
-    },
-    {
-        name: 'Carreta',
-        name2: 'para Cuatrimoto',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-cuatrimoto.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Industrial Multiuso',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/remolque-industrial-multiuso.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Agrícola',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-agricola.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Industrial',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrial.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Industrial Doble Eje',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrial-dobleeje.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Multifunción',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrial-multifuncion.png',
-    },
-    {
-        name: 'Carreta',
-        name2: 'Agrícola',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-agricola-azul.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Industrial Doble Eje',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrial-dobleeje-rojo.png',
-    },
-    {
-        name: 'Plataforma',
-        name2: 'Autoniveladora',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-plataforma-autoniveladora.png',
-    },
-    {
-        name: 'Industrial',
-        name2: 'Doble Eje',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrialdobleeje.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Industrial Doble Eje',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrial-dobleeje-negro.png',
-    },
-    {
-        name: 'Industrial',
-        name2: 'Doble Eje',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrialdobleejenegro.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'para Compresor',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-para-compresor.png',
-    },
-    {
-        name: 'Porta',
-        name2: 'Escalera 24, 28 y 32',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-porta-escalera.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'para Minicargador',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-minicargador-frontal.png',
-    },
-    {
-        name: 'Remolque',
-        name2: 'Agrícola y Multiuso',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-industrial-multiuso.png',
-    },
-    {
-        name: 'Porta Tanque',
-        name2: 'IBC 1 ó 2 Tanques',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-para-tanque.png',
-    },
-    {
-        name: 'Carreta',
-        name2: 'Elevador Tijera',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-elevador-tijera.png',
-    },
-    {
-        name: 'Carreta',
-        name2: 'Para Minicargador',
-        description: DEFAULT_DESCRIPTION,
-        imageUrl: '/images/carreta-minicargador.png',
-    }
-];
+import categories from '../data/categories.json';
 ---
-
-<Layout title="Productos">
+<Layout title="Categorias">
     <NavBar />
     <section class="relative bg-black">
-        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-10" />
+        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-25" />
         <div class="absolute inset-0 flex items-center justify-center">
             <div class="bg-white bg-opacity-85 p-4 rounded-lg shadow-lg">
                 <nav class="flex space-x-4 text-gray-600">
@@ -148,25 +17,46 @@ const products = [
             </div>
         </div>
     </section>
-    <section class="py-16">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {products.map(product => (
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-                        <div class="aspect-w-1 aspect-h-1">
-                            <img src={product.imageUrl} alt={product.name} class="w-full h-full object-cover" />
-                        </div>
-                        <div class="p-4 sm:p-6 md:p-8">
-                            <h3 class="text-lg text-center sm:text-xl md:text-2xl text-green-900 font-semibold mb-2">
-                                {product.name} <br /> {product.name2}
-                            </h3>
-                            <p class="text-xs text-center sm:text-base text-gray-600 mb-4 leading-tight">
-                                {product.description}
-                            </p>
-                            <a href="#" data-product-name={`${product.name} ${product.name2}`} class="whatsapp-button block text-center bg-green-900 text-white px-4 py-2 rounded-full hover:bg-green-950 transition duration-300 mt-8 text-sm sm:text-base">
-                                Solicitar Cotización
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-gray-200">
+        <div class="container mx-auto px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-green-900 mb-12 lg:mb-16">
+                Categoría de Productos
+            </h2>
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {categories.map((category) => (
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl relative group">
+                        <div class="relative">
+                            <img src={category.imageUrl} alt={category.name} class="w-full h-70 sm:h-72 md:h-96 lg:h-96 object-cover group-hover:blur-sm transition-all duration-500"/>
+                            <div class="absolute inset-0 bg-black bg-opacity-65 flex items-center justify-center text-center lg:hidden">
+                                <div>
+                                    <h3 class="text-white text-lg sm:text-xl font-semibold mb-4">{category.name}</h3>
+                                    <a class="bg-[#70d959] text-black font-semibold py-2 px-4 rounded-full" href={`/products/${category.slug}`}>
+                                        Ver Productos
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="absolute inset-0 bg-black bg-opacity-65 items-center justify-center text-center opacity-0 lg:group-hover:opacity-100 transition-opacity duration-700 hidden lg:flex">
+                                <div>
+                                    <h3 class="text-white text-2xl font-semibold mb-4 transition-transform duration-700 transform translate-y-4 group-hover:translate-y-0">{category.name}</h3>
+                                    <a class="bg-[#70d959] text-black font-semibold py-2 px-4 rounded-full" href={`/products/${category.slug}`}>
+                                        Ver Productos
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="absolute inset-0 px-4 py-6 group-hover:bg-gradient-to-br group-hover:from-[#70d959] group-hover:via-[#4cae36] group-hover:to-[#2f7d1e] group-hover:opacity-100 hidden sm:block">
+                                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center transition-all duration-300 ease-in-out opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                                    <h3 class="text-white text-xl md:text-2xl font-bold mb-4">
+                                        <a title={category.name} href={`/products/${category.slug}`}>{category.name}</a>
+                                    </h3>
+                                    <a class="inline-flex items-center justify-center border hover:border-yellow-300 rounded-md h-12 w-12 transition-colors duration-500" title={category.name} href={`/products/${category.slug}`}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" class="h-2.5 w-2.5 sm:h-4 sm:w-4 fill-yellow-300">
+                                            <g>
+                                                <path d="M160.26,177.05c-0.74-2.09-2.15-2.98-3.25-4.08C106.66,122.58,56.29,72.21,5.91,21.86C3.07,19.02,0.7,16.08,0.8,11.76 c0.1-4.41,1.92-7.8,5.79-9.87c3.95-2.11,8-1.96,11.78,0.49c1.52,0.99,2.82,2.35,4.12,3.64c50.22,50.19,100.43,100.4,150.61,150.63 c1.12,1.12,1.9,2.59,3.12,4.27c1.46-2.3,1.09-3.69,1.09-4.97c0.02-36.76,0.01-73.53,0.03-110.29c0-7.56,4.8-12.31,11.96-12.01 c5.63,0.23,10.19,4.69,10.54,10.35c0.07,1.14,0.04,2.3,0.04,3.45c0,46.3-0.14,92.6,0.13,138.9c0.05,8.53-5.41,13.43-13.21,13.38 c-46.87-0.26-93.75-0.12-140.62-0.14c-7.72,0-12.62-4.91-12.24-12.13c0.29-5.52,4.61-9.96,10.12-10.36 c1.37-0.1,2.76-0.05,4.13-0.05c35.85,0,71.69,0,107.54,0C157.09,177.05,158.46,177.05,160.26,177.05z"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 ))}
@@ -174,17 +64,3 @@ const products = [
         </div>
     </section>
 </Layout>
-<script>
-    const whatsappButtons = document.querySelectorAll('.whatsapp-button');
-    const phoneNumber = '+51995374449';
-
-    whatsappButtons.forEach(button => {
-        button.addEventListener('click', function (event) {
-            event.preventDefault();
-            const productName = button.getAttribute('data-product-name');
-            const message = `Hola *Estructura Metálica Ato & Peña*, estoy interesado en el producto: *${productName}*. Me gustaría solicitar una cotización.`;
-            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
-        });
-    });
-</script>

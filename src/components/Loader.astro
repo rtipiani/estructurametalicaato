@@ -1,0 +1,32 @@
+---
+const { message } = Astro.props;
+---
+
+<div class="fixed inset-0 flex items-center justify-center bg-[#70d959] bg-opacity-100 z-50">
+    <div class="loader flex flex-col items-center">
+        <div class="loading-spinner"></div>
+        <p class="text-white mt-4 text-lg font-semibold">{message || "Cargando..."}</p>
+    </div>
+</div>
+
+<style>
+    .loader {
+        text-align: center;
+    }
+    .loading-spinner {
+        border: 8px solid #d8d8d8;
+        border-top: 8px solid #ffffff;
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+        animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>

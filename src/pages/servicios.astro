@@ -2,11 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import NavBar from "../components/NavBar.astro";
 ---
-
 <Layout title="Servicios">
     <NavBar/>
     <section class="relative bg-black">
-        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-10" />
+        <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-25" />
         <div class="absolute inset-0 flex items-center justify-center">
             <div class="bg-white bg-opacity-85 p-4 rounded-lg shadow-lg">
                 <nav class="flex space-x-4 text-gray-600">
@@ -18,39 +17,41 @@ import NavBar from "../components/NavBar.astro";
         </div>
     </section>
     <section class="py-16 bg-gray-100">
-        <div class="max-w-7xl mx-auto text-center">
-            <h2 class="text-4xl font-bold mb-8 text-gray-800">Nuestros Servicios</h2>
-            <p class="mb-12 text-lg text-gray-600 max-w-3xl mx-auto">Explora nuestros servicios personalizados, diseñados para ofrecerte soluciones innovadoras, con un enfoque en la calidad y satisfacción del cliente.</p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
-                <!-- Servicio 1 -->
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-green-900 leading-tight">
+                Nuestros Servicios
+            </h2>
+            <p class="mb-12 text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed sm:px-6 lg:px-0">
+                Explora nuestros servicios personalizados, diseñados para ofrecerte soluciones innovadoras, con un enfoque en la calidad y satisfacción del cliente.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                    <img src="/images/mantenimiento-remolque.png" alt="Servicio 1" class="w-full h-96 object-cover" />
-                    <div class="p-12">
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+                    <img src="/images/mantenimiento-remolque.png" alt="Mantenimiento de Remolques" class="w-full h-56 object-cover md:h-64 lg:h-80" />
+                    <div class="p-6 lg:p-8">
+                        <h3 class="text-xl md:text-2xl font-bold text-green-900 mb-3">
                             Mantenimiento de remolques
                         </h3>
-                        <p class="text-gray-600 mb-5 leading-6">
-                            Realizamos inspecciones periódicas, ajustes, reparaciones, y reemplazo de piezas desgastadas, asegurando un rendimiento óptimo y prolongando la vida útil de tu equipo.
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Realizamos inspecciones periódicas, ajustes, reparaciones y reemplazo de piezas desgastadas, asegurando un rendimiento óptimo y prolongando la vida útil de tu equipo.
                         </p>
-                        <a href="" data-service-name="Mantenimiento de remolques" class="bg-green-900 text-white py-2 px-6 rounded-lg hover:bg-green-950 transition duration-300 focus:outline-none whatsapp-button">
+                        <a href="" data-service-name="Mantenimiento de remolques" class="inline-flex items-center bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white py-3 px-6 rounded-lg hover:bg-green-950 transition duration-300 focus:outline-none whatsapp-button">
                             Descubre más
-                            <i class="fab fa-whatsapp"></i>
+                            <i class="fab fa-whatsapp ml-2"></i>
                         </a>
                     </div>
                 </div>
-                <!-- Servicio 2 -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                    <img src="/images/instalacion-remolque.png" alt="Instalación de Sistemas de Remolques" class="w-full h-96 object-cover" />
-                    <div class="p-12">
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+                    <img src="/images/instalacion-remolque.png" alt="Instalación de Sistemas de Remolques" class="w-full h-56 object-cover md:h-64 lg:h-80" />
+                    <div class="p-6 lg:p-8">
+                        <h3 class="text-xl md:text-2xl font-bold text-green-900 mb-3">
                             Instalación de Sistema de remolques
                         </h3>
-                        <p class="text-gray-600 mb-5 leading-6">
+                        <p class="text-gray-600 mb-6 leading-relaxed">
                             Nos aseguramos de que cada componente sea instalado de manera segura y cumpla con las normativas, brindándote la confianza de un remolque perfectamente funcional y listo para cualquier desafío.
                         </p>
-                        <a href="" data-service-name="Instalación de Sistema de remolques" class="bg-green-900 text-white py-2 px-6 rounded-lg hover:bg-green-950 transition duration-300 focus:outline-none whatsapp-button">
+                        <a href="" data-service-name="Instalación de Sistema de remolques" class="inline-flex items-center bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white py-3 px-6 rounded-lg hover:bg-green-950 transition duration-300 focus:outline-none whatsapp-button">
                             Descubre más
-                            <i class="fab fa-whatsapp"></i>
+                            <i class="fab fa-whatsapp ml-2"></i>
                         </a>
                     </div>
                 </div>

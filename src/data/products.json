@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
-        "name": "Porta",
-        "name2": "Bobina con Winche",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-porta-bobina",
-        "slug": "porta-bobina-con-winche",
-        "imageUrl": "/images/portabobina-conwinche.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto0.png"
     },
     {
         "id": 2,
-        "name": "Porta",
-        "name2": "Bobina Fijo",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-porta-bobina",
-        "slug": "porta-bobina-fijo",
-        "imageUrl": "/images/portabobina-fijo.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto1.png"
     },
     {
         "id": 3,
@@ -24,159 +24,276 @@
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
         "categorySlug": "remolque-para-cuatrimoto",
         "slug": "carreta-para-cuatrimoto",
-        "imageUrl": "/images/carreta-cuatrimoto.png"
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto2.png"
     },
     {
         "id": 4,
-        "name": "Remolque",
-        "name2": "Industrial Multiuso",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-multiuso",
-        "slug": "remolque-industrial-multiuso",
-        "imageUrl": "/images/remolque-industrial-multiuso.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto3.png"
     },
     {
         "id": 5,
-        "name": "Remolque",
-        "name2": "Agrícola",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-agricola",
-        "slug": "remolque-industrial-multiuso",
-        "imageUrl": "/images/carreta-agricola.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto4.png"
     },
     {
         "id": 6,
-        "name": "Remolque",
-        "name2": "Industrial 1 Eje",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-industrial-1-eje",
-        "slug": "remolque-industrial-1-eje",
-        "imageUrl": "/images/carreta-industrial.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto5.png"
     },
     {
         "id": 7,
-        "name": "Remolque",
-        "name2": "Industrial Doble Eje",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-industrial-2-ejes",
-        "slug": "remolque-industrial-2-ejes",
-        "imageUrl": "/images/carreta-industrial-dobleeje-rojo.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto6.png"
     },
     {
         "id": 8,
-        "name": "Remolque",
-        "name2": "Industrial Doble Eje",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-industrial-2-ejes",
-        "slug": "remolque-industrial-2-ejes",
-        "imageUrl": "/images/carreta-industrialdobleeje.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto7.png"
     },
     {
         "id": 9,
-        "name": "Remolque",
-        "name2": "Industrial Doble Eje",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-industrial-2-ejes",
-        "slug": "remolque-industrial-2-ejes",
-        "imageUrl": "/images/carreta-industrialdobleejenegro.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto8.png"
     },
     {
         "id": 10,
-        "name": "Remolque",
-        "name2": "Industrial Doble Eje",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-industrial-2-ejes",
-        "slug": "remolque-industrial-2-ejes",
-        "imageUrl": "/images/carreta-industrial-dobleeje-negro.png"
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto9.png"
     },
     {
         "id": 11,
-        "name": "Remolque",
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto10.png"
+    },
+    {
+        "id": 12,
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto11.png"
+    },
+    {
+        "id": 13,
+        "name": "Carreta",
+        "name2": "para Cuatrimoto",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-cuatrimoto",
+        "slug": "carreta-para-cuatrimoto",
+        "imageUrl": "/images/productos/cuatrimotos/cuatrimoto12.png"
+    },
+    {
+        "id": 14,
+        "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
         "categorySlug": "remolque-agricola",
         "slug": "remolque-agricola",
-        "imageUrl": "/images/carreta-agricola-azul.png"
-    },
-    {
-        "id": 12,
-        "name": "Remolque",
-        "name2": "Agrícola y Multiuso",
-        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-agricola",
-        "slug": "remolque-agricola",
-        "imageUrl": "/images/carreta-industrial-multiuso.png"
-    },
-    {
-        "id": 13,
-        "name": "Remolque",
-        "name2": "para Compresor",
-        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-grupo-electrogeno-compresor",
-        "slug": "remolque-grupo-electrogeno-compresor",
-        "imageUrl": "/images/carreta-para-compresor.png"
-    },
-    {
-        "id": 14,
-        "name": "Porta",
-        "name2": "Escalera 24, 28 y 32",
-        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-porta-escalera",
-        "slug": "remolque-porta-escalera",
-        "imageUrl": "/images/carreta-porta-escalera.png"
+        "imageUrl": "/images/productos/agricola/agricola0.png"
     },
     {
         "id": 15,
-        "name": "Remolque",
-        "name2": "para Minicargador",
+        "name": "Carreta",
+        "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-para-maquina-de-carga-pesada",
-        "slug": "remolque-para-maquina-de-carga-pesada",
-        "imageUrl": "/images/carreta-minicargador-frontal.png"
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola1.png"
     },
     {
         "id": 16,
-        "name": "Remolque",
-        "name2": "Multifunción",
+        "name": "Carreta",
+        "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
         "categorySlug": "remolque-agricola",
         "slug": "remolque-agricola",
-        "imageUrl": "/images/carreta-industrial-multifuncion.png"
+        "imageUrl": "/images/productos/agricola/agricola2.png"
     },
     {
         "id": 17,
-        "name": "Remolque",
-        "name2": "Autoniveladora",
-        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-para-maquina-de-carga-pesada",
-        "slug": "remolque-para-maquina-de-carga-pesada",
-        "imageUrl": "/images/carreta-plataforma-autoniveladora.png"
-    },
-    {
-        "id": 18,
-        "name": "Remolque",
-        "name2": "Para Minicargador",
-        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-para-maquina-de-carga-pesada",
-        "slug": "remolque-para-maquina-de-carga-pesada",
-        "imageUrl": "/images/carreta-minicargador.png"
-    },
-    {
-        "id": 19,
-        "name": "Porta Tanque",
-        "name2": "IBC 1 ó 2 Tanques",
+        "name": "Carreta",
+        "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
         "categorySlug": "remolque-agricola",
         "slug": "remolque-agricola",
-        "imageUrl": "/images/carreta-para-tanque.png"
+        "imageUrl": "/images/productos/agricola/agricola3.png"
+    },
+    {
+        "id": 18,
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola4.png"
+    },
+    {
+        "id": 19,
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola5.png"
     },
     {
         "id": 20,
-        "name": "Porta Tanque",
-        "name2": "IBC 1 ó 2 Tanques",
+        "name": "Carreta",
+        "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
-        "categorySlug": "remolque-porta-escalera",
-        "slug": "remolque-porta-escalera",
-        "imageUrl": "/images/carreta-elevador-tijera.png"
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola6.png"
+    },
+    {
+        "id": 21,
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola7.png"
+    },
+    {
+        "id": 22,
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola8.png"
+    },
+    {
+        "id": 23,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada0.png"
+    },
+    {
+        "id": 24,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada1.png"
+    },
+    {
+        "id": 25,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada2.png"
+    },
+    {
+        "id": 26,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada3.png"
+    },
+    {
+        "id": 27,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada4.png"
+    },
+    {
+        "id": 28,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada5.png"
+    },
+    {
+        "id": 29,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada6.png"
+    },
+    {
+        "id": 30,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada7.png"
+    },
+    {
+        "id": 31,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada8.png"
+    },
+    {
+        "id": 32,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada9.png"
+    },
+    {
+        "id": 33,
+        "name": "Remolque para",
+        "name2": "Maquinaria de Carga Pesada",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-maquina-de-carga-pesada",
+        "slug": "remolque-para-maquina-de-carga-pesada",
+        "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada10.png"
     }
 ]

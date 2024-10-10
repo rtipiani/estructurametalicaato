@@ -1,11 +1,11 @@
-<div class="relative w-full h-screen overflow-hidden flex justify-center items-center">
+<div class="relative w-full h-screen sm:h-[calc(100vh-80px)] overflow-hidden flex justify-center items-center">
     <div id="slider" class="flex transition-transform duration-700 ease-in-out w-full h-full"></div>
-    <button id="prev" class="absolute top-1/2 left-2 md:left-4 transform -translate-y-1/2 bg-[#70d959] text-black p-1 md:p-2 rounded-full focus:outline-none hover:bg-opacity-75">
+    <button id="prev" class="absolute top-1/2 left-2 md:left-4 transform -translate-y-1/2 bg-[#70d959] text-black p-1 md:p-2 rounded-full focus:outline-none hover:bg-opacity-75" aria-label="Previous Slide">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
         </svg>
     </button>
-    <button id="next" class="absolute top-1/2 right-2 md:right-4 transform -translate-y-1/2 bg-[#70d959] text-black p-1 md:p-2 rounded-full focus:outline-none hover:bg-opacity-75">
+    <button id="next" class="absolute top-1/2 right-2 md:right-4 transform -translate-y-1/2 bg-[#70d959] text-black p-1 md:p-2 rounded-full focus:outline-none hover:bg-opacity-75" aria-label="Next Slide">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
@@ -47,7 +47,7 @@
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center w-full px-4 max-w-3xl mx-auto">
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">${slide.title}</h1>
                 <p class="text-base md:text-lg lg:text-xl md:py-2 mb-8">${slide.description}</p>
-                <a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." class="bg-gradient-to-r from-[#70d959] to-green-500 hover:from-green-900 hover:to-green-700 text-black hover:text-white font-bold py-3 px-6 md:px-8 rounded-2xl transition duration-300" target="_blank">
+                <a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." class="bg-gradient-to-r from-[#70d959] to-green-500 hover:from-green-900 hover:to-green-700 text-black hover:text-white font-bold py-3 px-6 md:px-8 rounded-2xl transition duration-300" target="_blank" rel="noopener noreferrer">
                     Cotizar ahora
                     <i class="fab fa-whatsapp"></i>
                 </a>
@@ -109,5 +109,5 @@
     }
 
     startSlideInterval();
-    
+
 </script>

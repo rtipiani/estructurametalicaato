@@ -3,6 +3,7 @@ const currentPath = Astro.url.pathname;
 
 import TopHeader from "./TopHeader.astro";
 ---
+
 <TopHeader/>
 <nav id="main-navbar" class="bg-white w-full z-10 shadow py-4">
     <div class="max-w-7xl mx-auto px-4">
@@ -12,22 +13,18 @@ import TopHeader from "./TopHeader.astro";
                     <img src="/images/logo.png" alt="Estructura Metálica Ato & Peña" class="w-32 h-auto">
                 </a>
             </div>
-            <div class="hidden md:flex space-x-5">
-                <a href="/" class={`block px-5 py-2 rounded-md transition duration-300 transform ${currentPath === '/' ? 'bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                    Inicio
-                </a>
-                <a href="/nosotros" class={`block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/nosotros' ? 'bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-l hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                    Nosotros
-                </a>
-                <a href="/productos" class={`block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/productos' ? 'bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-l hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                    Productos
-                </a>
-                <a href="/servicios" class={`block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/servicios' ? 'bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-l hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                    Servicios
-                </a>
-                <a href="/contactenos" class={`block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/contactenos' ? 'bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-l hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                    Contáctenos
-                </a>
+            <div class="hidden md:flex space-x-2">
+                {['/', '/nosotros', '/productos', '/servicios', '/contactenos'].map((path) => (
+                    <a
+                        href={path}
+                        class={`block px-5 py-2 rounded-md transition duration-300 transform ${
+                            currentPath === path ? 'bg-gradient-to-l from-[#70d959] to-[#4cae36] text-white shadow-md scale-105'
+                            : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'
+                        }`}
+                    >
+                        {path === '/' ? 'Inicio' : path.slice(1).charAt(0).toUpperCase() + path.slice(2)}
+                    </a>
+                ))}
             </div>
             <div class="flex md:hidden items-center">
                 <button id="menu-button" class="text-green-900 focus:outline-none">
@@ -40,21 +37,17 @@ import TopHeader from "./TopHeader.astro";
     </div>
     <div id="mobile-menu" class="md:hidden hidden text-center">
         <div class="px-6 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="/" class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/' ? 'bg-gradient-to-r from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                Inicio
-            </a>
-            <a href="/nosotros" class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/nosotros' ? 'bg-gradient-to-r from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                Nosotros
-            </a>
-            <a href="/productos" class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/productos' ? 'bg-gradient-to-r from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                Productos
-            </a>
-            <a href="/servicios" class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/servicios' ? 'bg-gradient-to-r from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                Servicios
-            </a>
-            <a href="/contactenos" class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === '/contactenos' ? 'bg-gradient-to-r from-[#70d959] to-[#4cae36] text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
-                Contáctenos
-            </a>
+            {['/', '/nosotros', '/productos', '/servicios', '/contactenos'].map((path) => (
+                <a
+                    href={path}
+                    class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${
+                        currentPath === path ? 'bg-gradient-to-r from-[#70d959] to-[#4cae36] text-white shadow-md scale-105'
+                        : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'
+                    }`}
+                >
+                    {path === '/' ? 'Inicio' : path.slice(1).charAt(0).toUpperCase() + path.slice(2)}
+                </a>
+            ))}
         </div>
     </div>
 </nav>
@@ -67,13 +60,12 @@ import TopHeader from "./TopHeader.astro";
     menuButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
     });
+
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.classList.add('fixed', 'top-0', 'bg-white');
-            navbar.classList.remove('shadow');
+            navbar.classList.add('fixed', 'top-0', 'bg-white', 'shadow-md');
         } else {
-            navbar.classList.remove('fixed', 'top-0');
-            navbar.classList.add('shadow');
+            navbar.classList.remove('fixed', 'top-0', 'bg-white', 'shadow-md');
         }
     });
 </script>

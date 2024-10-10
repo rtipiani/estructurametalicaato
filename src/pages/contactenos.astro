@@ -27,54 +27,42 @@ import NavBar from "../components/NavBar.astro";
             </p>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <form action="#" method="POST" class="space-y-6" aria-label="Formulario de contacto">
+                    <form action="https://formspree.io/f/xovqarbw" method="POST" id="contact-form" class="space-y-6" aria-label="Formulario de contacto">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
-                                <label for="name" class="block text-sm font-bold mb-1 text-green-900">
-                                    Nombre y Apellido:
-                                </label>
-                                <input type="text" id="name" placeholder="Nombres y Apellidos" required
+                                <label for="name" class="block text-sm font-bold mb-1 text-green-900">Nombre y Apellido:</label>
+                                <input type="text" id="name" name="name" placeholder="Nombres y Apellidos" required
                                     class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
                                     aria-required="true" aria-label="Nombre ó Razón Social" />
                             </div>
                             <div>
-                                <label for="email" class="block text-sm font-bold mb-1 text-green-900">
-                                    Correo Electrónico:
-                                </label>
-                                <input type="email" id="email" placeholder="correo@ejemplo.com" required
+                                <label for="email" class="block text-sm font-bold mb-1 text-green-900">Correo Electrónico:</label>
+                                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required
                                     class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
                                     aria-required="true" aria-label="Correo electrónico" />
                             </div>
                             <div>
-                                <label for="phone" class="block text-sm font-bold mb-1 text-green-900">
-                                    Teléfono:
-                                </label>
-                                <input type="tel" id="phone" placeholder="Número de teléfono" required
+                                <label for="phone" class="block text-sm font-bold mb-1 text-green-900">Teléfono:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Número de teléfono" required
                                     class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
                                     aria-required="true" aria-label="Número de teléfono" />
                             </div>
                             <div>
-                                <label for="ruc" class="block text-sm font-bold mb-1 text-green-900">
-                                    Número de RUC:
-                                </label>
-                                <input type="text" id="ruc" placeholder="Número de RUC" required
+                                <label for="ruc" class="block text-sm font-bold mb-1 text-green-900">Número de RUC:</label>
+                                <input type="text" id="ruc" name="ruc" placeholder="Número de RUC" required
                                     class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
                                     aria-required="true" aria-label="Número de RUC" />
                             </div>
                             <div class="sm:col-span-2">
-                                <label for="razon-social" class="block text-sm font-bold mb-1 text-green-900">
-                                    Razón Social:
-                                </label>
-                                <input type="text" id="razon-social" placeholder="Razón Social de la empresa" required
+                                <label for="razon-social" class="block text-sm font-bold mb-1 text-green-900">Razón Social:</label>
+                                <input type="text" id="razon-social" name="razon-social" placeholder="Razón Social de la empresa" required
                                     class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200" 
                                     aria-required="true" aria-label="Razón social" />
                             </div>
                         </div>
                         <div>
-                            <label for="message" class="block text-sm font-bold mb-1 text-green-900">
-                                Mensaje:
-                            </label>
-                            <textarea id="message" rows="5" placeholder="Escribe tu mensaje aquí..." required
+                            <label for="message" class="block text-sm font-bold mb-1 text-green-900">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required
                                 class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
                                 aria-required="true" aria-label="Mensaje"></textarea>
                         </div>
@@ -143,3 +131,29 @@ import NavBar from "../components/NavBar.astro";
         </div>
     </section>
 </Layout>
+<script>
+    const form = document.getElementById("contact-form") as HTMLFormElement; // Aserción de tipo
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Evita el comportamiento por defecto
+
+        fetch(form.action, {
+            method: "POST",
+            body: new FormData(form),
+            headers: {
+                Accept: "application/json",
+            },
+        })
+        .then((response) => {
+            if (response.ok) {
+                alert("¡Mensaje enviado con éxito!");
+                form.reset(); // Restablece el formulario
+            } else {
+                alert("Hubo un problema al enviar el mensaje.");
+            }
+        })
+        .catch((error) => {
+            alert("Hubo un problema al enviar el mensaje.");
+        });
+    });
+</script>

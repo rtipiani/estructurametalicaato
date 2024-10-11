@@ -54,7 +54,7 @@ app.post('/contact', (req, res) => {
             return res.status(500).send('Hubo un error al enviar el mensaje.');
         }
         console.log('Correo enviado, redirigiendo a la página de inicio...');
-        res.redirect('/'); // Redirige a la página de inicio
+        res.redirect('https://estructurametalicaato.vercel.app/'); // Redirige a la página de inicio
     });
 });
 

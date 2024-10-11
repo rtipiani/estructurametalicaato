@@ -54,11 +54,12 @@ app.post('/contact', (req, res) => {
             return res.status(500).send('Hubo un error al enviar el mensaje.');
         }
         console.log('Correo enviado, redirigiendo a la página de inicio...');
-        res.redirect('https://estructurametalicaato.vercel.app/'); // Redirige a la página de inicio
+        res.redirect(process.env.BASE_URL);
     });
 });
 
 // Iniciando el servidor
 app.listen(port, () => {
-    console.log(`Servidor escuchando en http://localhost:${port}`);
+    const isProduction = process.env.NODE_ENV === 'production';
+    console.log(`Servidor escuchando en ${isProduction ? 'https://estructurametalicaato.vercel.app/' : `http://localhost:${port}`}`);
 });

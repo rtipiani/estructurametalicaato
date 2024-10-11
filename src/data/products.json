@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -9,7 +8,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto0.png"
     },
     {
-        "id": 2,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -18,7 +16,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto1.png"
     },
     {
-        "id": 3,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -27,7 +24,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto2.png"
     },
     {
-        "id": 4,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -36,7 +32,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto3.png"
     },
     {
-        "id": 5,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -45,7 +40,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto4.png"
     },
     {
-        "id": 6,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -54,7 +48,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto5.png"
     },
     {
-        "id": 7,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -63,7 +56,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto6.png"
     },
     {
-        "id": 8,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -72,7 +64,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto7.png"
     },
     {
-        "id": 9,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -81,7 +72,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto8.png"
     },
     {
-        "id": 10,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -90,7 +80,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto9.png"
     },
     {
-        "id": 11,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -99,7 +88,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto10.png"
     },
     {
-        "id": 12,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -108,7 +96,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto11.png"
     },
     {
-        "id": 13,
         "name": "Carreta",
         "name2": "para Cuatrimoto",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -117,7 +104,6 @@
         "imageUrl": "/images/productos/cuatrimotos/cuatrimoto12.png"
     },
     {
-        "id": 14,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -126,7 +112,6 @@
         "imageUrl": "/images/productos/agricola/agricola0.png"
     },
     {
-        "id": 15,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -135,7 +120,6 @@
         "imageUrl": "/images/productos/agricola/agricola1.png"
     },
     {
-        "id": 16,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -144,7 +128,6 @@
         "imageUrl": "/images/productos/agricola/agricola2.png"
     },
     {
-        "id": 17,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -153,7 +136,6 @@
         "imageUrl": "/images/productos/agricola/agricola3.png"
     },
     {
-        "id": 18,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -162,7 +144,6 @@
         "imageUrl": "/images/productos/agricola/agricola4.png"
     },
     {
-        "id": 19,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -171,7 +152,6 @@
         "imageUrl": "/images/productos/agricola/agricola5.png"
     },
     {
-        "id": 20,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -180,7 +160,6 @@
         "imageUrl": "/images/productos/agricola/agricola6.png"
     },
     {
-        "id": 21,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -189,7 +168,6 @@
         "imageUrl": "/images/productos/agricola/agricola7.png"
     },
     {
-        "id": 22,
         "name": "Carreta",
         "name2": "Agrícola",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -198,7 +176,30 @@
         "imageUrl": "/images/productos/agricola/agricola8.png"
     },
     {
-        "id": 23,
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola9.png"
+    },
+    {
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola10.png"
+    },
+    {
+        "name": "Carreta",
+        "name2": "Agrícola",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-agricola",
+        "slug": "remolque-agricola",
+        "imageUrl": "/images/productos/agricola/agricola11.png"
+    },
+    {
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -207,7 +208,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada0.png"
     },
     {
-        "id": 24,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -216,7 +216,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada1.png"
     },
     {
-        "id": 25,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -225,7 +224,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada2.png"
     },
     {
-        "id": 26,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -234,7 +232,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada3.png"
     },
     {
-        "id": 27,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -243,7 +240,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada4.png"
     },
     {
-        "id": 28,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -252,7 +248,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada5.png"
     },
     {
-        "id": 29,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -261,7 +256,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada6.png"
     },
     {
-        "id": 30,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -270,7 +264,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada7.png"
     },
     {
-        "id": 31,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -279,7 +272,6 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada8.png"
     },
     {
-        "id": 32,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -288,12 +280,251 @@
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada9.png"
     },
     {
-        "id": 33,
         "name": "Remolque para",
         "name2": "Maquinaria de Carga Pesada",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
         "categorySlug": "remolque-para-maquina-de-carga-pesada",
         "slug": "remolque-para-maquina-de-carga-pesada",
         "imageUrl": "/images/productos/maquinaria-pesada/maquinaria-pesada10.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje0.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje1.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje2.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje3.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje4.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje5.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje6.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje7.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "01 EJE",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-1-eje",
+        "slug": "remolque-industrial-1-eje",
+        "imageUrl": "/images/productos/1-eje/industrial1eje8.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje0.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje1.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje2.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje3.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje4.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje5.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje6.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje7.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "02 EJES",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-industrial-2-ejes",
+        "slug": "remolque-industrial-2-ejes",
+        "imageUrl": "/images/productos/2-ejes/industrial2eje8.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Botes",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-botes",
+        "slug": "remolque-para-botes",
+        "imageUrl": "/images/productos/bote/bote0.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Botes",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-botes",
+        "slug": "remolque-para-botes",
+        "imageUrl": "/images/productos/bote/bote1.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Panel Solar",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-panel-solar",
+        "slug": "remolque-para-panel-solar",
+        "imageUrl": "/images/productos/panel-solar/panel-solar0.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Panel Solar",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-panel-solar",
+        "slug": "remolque-para-panel-solar",
+        "imageUrl": "/images/productos/panel-solar/panel-solar1.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Panel Solar",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-panel-solar",
+        "slug": "remolque-para-panel-solar",
+        "imageUrl": "/images/productos/panel-solar/panel-solar2.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Panel Solar",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-panel-solar",
+        "slug": "remolque-para-panel-solar",
+        "imageUrl": "/images/productos/panel-solar/panel-solar3.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Porta Bobina con Winche",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-bobina",
+        "slug": "remolque-porta-bobina",
+        "imageUrl": "/images/productos/porta-bobina/porta-bobina0.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Bobina con Sistema Fijo",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-bobina",
+        "slug": "remolque-porta-bobina",
+        "imageUrl": "/images/productos/porta-bobina/porta-bobina1.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Bobina con Sistema Winche",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-bobina",
+        "slug": "remolque-porta-bobina",
+        "imageUrl": "/images/productos/porta-bobina/porta-bobina2.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "con Sistema de Tecle Truper",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-bobina",
+        "slug": "remolque-porta-bobina",
+        "imageUrl": "/images/productos/porta-bobina/porta-bobina3.png"
+    },
+    {
+        "name": "Remolque Porta",
+        "name2": "Escalera con Extensión 24, 28 y 32",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-escalera",
+        "slug": "remolque-porta-escalera",
+        "imageUrl": "/images/productos/porta-escalera/porta-escalera0.png"
+    },
+    {
+        "name": "Remolque Porta",
+        "name2": "Escalera con Extensión 24, 28 y 32",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-escalera",
+        "slug": "remolque-porta-escalera",
+        "imageUrl": "/images/productos/porta-escalera/porta-escalera1.png"
     }
 ]

@@ -16,6 +16,10 @@ app.use(bodyParser.json());
 const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, 'dist')));
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.astro'));
+})
+
 // Ruta para manejar el formulario de contacto
 app.post('/contact', (req, res) => {
     const { nombre_usuario, email_usuario, telefono_usuario, ruc_usuario, razon_social, mensaje_usuario } = req.body;

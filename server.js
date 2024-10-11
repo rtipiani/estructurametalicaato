@@ -66,9 +66,9 @@
 
 import express from 'express';
 import bodyParser from 'body-parser';
-import contactRouter from './api/contact.js'; // Asegúrate de tener la ruta correcta
 import dotenv from 'dotenv';
 import path from 'path';
+import contactRouter from './api/contact.js'; // Asegúrate de que la ruta sea correcta
 
 dotenv.config();
 
@@ -77,10 +77,20 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// Sirviendo los archivos estáticos de Astro
+const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.use('/api', contactRouter); // Montar el router
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.astro'));
+});
 
+// Usar el router para manejar las rutas de contacto
+app.use('/api/contact', contactRouter); // Asegúrate de que esta línea esté correcta
+
+// Iniciando el servidor
 app.listen(port, () => {
-    console.log(`Servidor escuchando en http://localhost:${port}`);
+    const isProduction = process.env.NODE_ENV === 'production';
+    console.log(`Servidor escuchando en ${isProduction ? 'https://estructurametalicaato.vercel.app/' : `http://localhost:${port}`}`);
 });

@@ -449,6 +449,30 @@
     },
     {
         "name": "Remolque",
+        "name2": "Para Botes",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-botes",
+        "slug": "remolque-para-botes",
+        "imageUrl": "/images/productos/bote/bote2.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Botes",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-botes",
+        "slug": "remolque-para-botes",
+        "imageUrl": "/images/productos/bote/bote3.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "Para Botes",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-botes",
+        "slug": "remolque-para-botes",
+        "imageUrl": "/images/productos/bote/bote4.png"
+    },
+    {
+        "name": "Remolque",
         "name2": "Para Panel Solar",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
         "categorySlug": "remolque-para-panel-solar",
@@ -512,6 +536,14 @@
         "imageUrl": "/images/productos/porta-bobina/porta-bobina3.png"
     },
     {
+        "name": "Remolque",
+        "name2": "Porta Bobina con Freno",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-bobina",
+        "slug": "remolque-porta-bobina",
+        "imageUrl": "/images/productos/porta-bobina/porta-bobina4.png"
+    },
+    {
         "name": "Remolque Porta",
         "name2": "Escalera con Extensión 24, 28 y 32",
         "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
@@ -526,6 +558,22 @@
         "categorySlug": "remolque-porta-escalera",
         "slug": "remolque-porta-escalera",
         "imageUrl": "/images/productos/porta-escalera/porta-escalera1.png"
+    },
+    {
+        "name": "Remolque Porta",
+        "name2": "Escalera con Extensión 24, 28 y 32",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-escalera",
+        "slug": "remolque-porta-escalera",
+        "imageUrl": "/images/productos/porta-escalera/porta-escalera2.png"
+    },
+    {
+        "name": "Remolque Porta",
+        "name2": "Escalera con Extensión 24, 28 y 32",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-porta-escalera",
+        "slug": "remolque-porta-escalera",
+        "imageUrl": "/images/productos/porta-escalera/porta-escalera3.png"
     },
     {
         "name": "Remolque",
@@ -566,6 +614,54 @@
         "categorySlug": "remolque-para-caballo-ganaderia",
         "slug": "remolque-para-caballo-ganaderia",
         "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia4.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "para Caballo - Ganadería",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-caballo-ganaderia",
+        "slug": "remolque-para-caballo-ganaderia",
+        "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia5.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "para Caballo - Ganadería",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-caballo-ganaderia",
+        "slug": "remolque-para-caballo-ganaderia",
+        "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia6.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "para Caballo - Ganadería",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-caballo-ganaderia",
+        "slug": "remolque-para-caballo-ganaderia",
+        "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia7.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "para Caballo - Ganadería",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-caballo-ganaderia",
+        "slug": "remolque-para-caballo-ganaderia",
+        "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia8.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "para Caballo - Ganadería",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-caballo-ganaderia",
+        "slug": "remolque-para-caballo-ganaderia",
+        "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia9.png"
+    },
+    {
+        "name": "Remolque",
+        "name2": "para Caballo - Ganadería",
+        "description": "Fabricado con materiales de alta calidad, garantizando la estabilidad y seguridad en su operación.",
+        "categorySlug": "remolque-para-caballo-ganaderia",
+        "slug": "remolque-para-caballo-ganaderia",
+        "imageUrl": "/images/productos/caballo-y-ganaderia/caballo-y-ganaderia10.png"
     },
     {
         "name": "Remolque para",

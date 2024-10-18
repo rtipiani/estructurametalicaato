@@ -1,0 +1,21 @@
+---
+const breadcrumbMap = {
+    '/': 'Inicio',
+    '/about': 'Nosotros',
+    '/products': 'Productos',
+    '/services': 'Servicios',
+    '/contacts': 'Contáctenos'
+};
+---
+<section class="relative bg-black">
+    <img src="/images/cta.png" alt="Breadcrumb Image" class="w-full h-60 object-cover opacity-25" />
+    <div class="absolute inset-0 flex items-center justify-center">
+        <div class="bg-white bg-opacity-85 p-4 rounded-lg shadow-lg">
+            <nav id="breadcrumb" class="flex space-x-4 text-gray-600">
+
+            </nav>
+        </div>
+    </div>
+</section>
+
+<script src="/scripts/breadcrumb.js" defer></script>

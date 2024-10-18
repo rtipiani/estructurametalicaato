@@ -1,0 +1,108 @@
+<section class="py-10 bg-gradient-to-b from-gray-100 to-gray-200">
+    <div class="max-w-7xl mx-auto px-4 lg:px-0">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-green-900 leading-tight text-center">
+            Contáctanos
+        </h2>
+        <p class="mb-12 text-lg text-gray-600 text-center max-w-2xl mx-auto">
+            Estamos aquí para ayudarte. <br> Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
+        </p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <form action="/api/contact" method="POST" id="contact-form" class="space-y-6" aria-label="Formulario de contacto">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="nombre_usuario" class="block text-sm font-bold mb-1 text-green-900">Nombres y Apellidos:</label>
+                            <input type="text" id="nombre_usuario" name="nombre_usuario" placeholder="Nombres y Apellidos" required
+                                class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
+                                aria-required="true" aria-label="Nombre ó Razón Social" />
+                        </div>
+                        <div>
+                            <label for="email_usuario" class="block text-sm font-bold mb-1 text-green-900">Correo Electrónico:</label>
+                            <input type="email" id="email_usuario" name="email_usuario" placeholder="correo@ejemplo.com" required
+                                class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
+                                aria-required="true" aria-label="Correo electrónico" />
+                        </div>
+                        <div>
+                            <label for="telefono_usuario" class="block text-sm font-bold mb-1 text-green-900">Teléfono:</label>
+                            <input type="tel" id="telefono_usuario" name="telefono_usuario" placeholder="Número de teléfono" required
+                                class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
+                                aria-required="true" aria-label="Número de teléfono" />
+                        </div>
+                        <div>
+                            <label for="ruc_usuario" class="block text-sm font-bold mb-1 text-green-900">Número de RUC:</label>
+                            <input type="text" id="ruc_usuario" name="ruc_usuario" placeholder="Número de RUC" required
+                                class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
+                                aria-required="true" aria-label="Número de RUC" />
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="razon_social" class="block text-sm font-bold mb-1 text-green-900">Razón Social:</label>
+                            <input type="text" id="razon_social" name="razon_social" placeholder="Nombre Comercial ó Razón Social" required
+                                class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
+                                aria-required="true" aria-label="Razón social" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mensaje_usuario" class="block text-sm font-bold mb-1 text-green-900">Mensaje:</label>
+                        <textarea id="mensaje_usuario" name="mensaje_usuario" rows="5" placeholder="Escribe tu mensaje aquí..." required
+                            class="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-green-200 focus:outline-none transition duration-200"
+                            aria-required="true" aria-label="Mensaje"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="bg-gradient-to-l from-primary to-secondary text-white py-3 px-6 rounded-lg w-full hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105 transition duration-300 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+            <div class="bg-white rounded-lg p-6 sm:p-8 md:p-10 lg:p-12">
+                <h3 class="text-xl sm:text-2xl font-bold mb-4 text-green-900 text-center">
+                    Información de Contacto
+                </h3>
+                <div class="mb-1 flex items-center">
+                    <i class="fas fa-phone-alt mr-2 text-secondary"></i>
+                    <span class="font-bold">Teléfono:</span>
+                </div>
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
+                    (+51) 995 374 449
+                </p>
+                <div class="mb-1 flex items-center">
+                    <i class="fas fa-map-marker-alt mr-2 text-secondary"></i>
+                    <span class="font-bold">Dirección:</span>
+                </div>
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
+                    Jr. Vizcardo y Guzman 448, San Martín de Porres.
+                </p>
+                <div class="mb-1 flex items-center">
+                    <i class="fas fa-clock mr-2 text-secondary"></i>
+                    <span class="font-bold">Horario de Atención:</span>
+                </div>
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
+                    Lunes a Sábado: 8:00 AM - 7:00 PM
+                </p>
+                <div class="mb-1 flex items-center">
+                    <i class="fas fa-envelope mr-2 text-secondary"></i>
+                    <span class="font-bold">Correo Electrónico:</span>
+                </div>
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base leading-tight">
+                    ventas@estructurametalicaato.com
+                </p>
+                <div class="flex flex-wrap space-x-2 mt-4">
+                    <a href="https://www.facebook.com/estructurametalicaato/" class="text-secondary hover:text-custom transition" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@estructurametalicaato" class="text-secondary hover:text-custom transition" target="_blank">
+                        <i class="fab fa-tiktok fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/estructura-metalica-ato-pe%C3%B1a-eirl-6b5727318/?originalSubdomain=pe" class="text-secondary hover:text-custom transition" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/estructurametalicaato/" class="text-secondary hover:text-custom transition" target="_blank">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCtYE-G2eX4mhoZJhUExGT7Q" class="text-secondary hover:text-custom transition" target="_blank">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,73 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Categories from "../../data/categories.json";
+export async function getStaticPaths() {
+    return Categories.map(category => ({
+        params: { category: category.slug }
+    }));
+}
+
+const { category } = Astro.params;
+import products from '../../data/products.json';
+import categoryMapping from "../../data/categoryMapping";
+import TopHeader from "../../components/TopHeader.astro";
+import NavBar from "../../components/NavBar.astro";
+import BreadCrumb from "../../components/BreadCrumb.astro";
+import Footer from "../../components/Footer.astro";
+
+const filteredProducts = products.filter(product => product.categorySlug === category);
+const readableCategory = categoryMapping[category] || category;
+---
+
+<Layout title="Productos" description="Con más de 15 años de experiencia en estructuras metálicas, nuestra empresa ofrece seguridad y confianza en cada uno de nuestros entregables a nivel nacional. Descubre soluciones metálicas de alta calidad para tus proyectos." url="https://www.estructurametalicaato.com">
+
+    <TopHeader/>
+    <NavBar/>
+    <BreadCrumb/>
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="mb-8 text-center">
+                <h2 class="text-3xl font-bold text-green-900 mb-12">{readableCategory}</h2>
+                <div class="text-center mt-8">
+                    <a href="/categories" class="text-green-850 border border-primary px-4 py-2 rounded hover:bg-gradient-to-b from-primary to-secondary hover:text-white transition duration-300">
+                        <i class="fas fa-arrow-left"></i>
+                        Volver
+                    </a>
+                </div>
+            </div>
+            <div class="text-center py-4">
+                {filteredProducts.length === 0 && (
+                    <p class="text-lg text-red-600 font-semibold">No hay productos en esta categoría</p>
+                )}
+            </div>
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {filteredProducts.length > 0 ? (
+                    filteredProducts.map((product) => (
+                        <div class="rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 border-2 border-primary border-opacity-85
+                        ">
+                            <div class="aspect-w-1 aspect-h-1">
+                                <img src={product.imageUrl} alt={product.name} class="w-full h-full object-cover" loading="lazy" />
+                            </div>
+                            <div class="p-4 sm:p-6">
+                                <h3 class="text-lg text-center sm:text-xl text-green-900 font-semibold mb-2">
+                                    {product.name} <br /> {product.name2}
+                                </h3>
+                                <p class="text-sm text-center text-gray-600 mb-4 leading-tight">
+                                    {product.description}
+                                </p>
+                                <a href="#" data-product-name={`${product.name} ${product.name2}`} class="whatsapp-button bg-gradient-to-r from-primary to-secondary block text-center bg-green-900 text-white px-4 py-2 rounded-full hover:scale-105 hover:shadow-lg transition-all ease-in-out duration-300 mt-4 text-sm">
+                                    Solicitar Cotización
+                                    <i class="fa-brands fa-whatsapp ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    ))
+                ) : null}
+            </div>
+        </div>
+    </section>
+    <Footer/>
+
+</Layout>
+
+<script src="/scripts/whatsappproducts.js" defer></script>

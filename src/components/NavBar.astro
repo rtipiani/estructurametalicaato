@@ -1,0 +1,59 @@
+---
+interface Props {
+    links?: { path: string; label: string }[];
+}
+
+const defaultLinks = [
+    { path: '/', label: 'Inicio' },
+    { path: '/nosotros', label: 'Nosotros' },
+    { path: '/categories', label: 'Productos' },
+    { path: '/servicios', label: 'Servicios' },
+    { path: '/contactenos', label: 'Contáctenos' }
+];
+
+const links = (Astro.props.links && Astro.props.links.length > 0) ? Astro.props.links : defaultLinks;
+
+const currentPath = Astro.url.pathname;
+
+const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+---
+<nav id="main-navbar" class="relative top-0 w-full z-30 shadow py-4">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex-shrink-0">
+                <a href="/">
+                    <img src="/images/logo.png" alt="Estructura Metálica Ato & Peña" class="w-32 h-auto">
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-2">
+                {
+                    links.map(({ path, label }) => (
+                        <a href={path} class={`block px-5 py-2 rounded-md transition duration-300 ${currentPath ===path ? 'bg-gradient-to-l from-primary to-secondary text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
+                            {label || capitalize(path.slice(1))}
+                        </a>
+                    ))
+                }
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-green-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden text-center mt-4">
+        <div>
+            {
+                links.map(({ path, label }) => (
+                    <a href={path} class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === path ? 'bg-gradient-to-r from-primary to-secondary text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
+                        {label || capitalize(path.slice(1))}
+                    </a>
+                ))
+            }
+        </div>
+    </div>
+</nav>
+
+<script src="/scripts/navbar.js" defer></script>

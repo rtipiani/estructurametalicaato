@@ -1,0 +1,59 @@
+---
+const images = [
+    '/images/galeria/gal-estructurametalica0.png',
+    '/images/galeria/gal-estructurametalica1.png',
+	'/images/galeria/gal-estructurametalica2.png',
+	'/images/galeria/gal-estructurametalica3.png',
+	'/images/galeria/gal-estructurametalica4.png',
+	'/images/galeria/gal-estructurametalica5.png',
+	'/images/galeria/gal-estructurametalica6.png',
+	'/images/galeria/gal-estructurametalica7.png',
+	'/images/galeria/gal-estructurametalica8.png',
+	'/images/galeria/gal-estructurametalica9.png',
+	'/images/galeria/gal-estructurametalica10.png',
+	'/images/galeria/gal-estructurametalica11.png',
+	'/images/galeria/gal-estructurametalica12.png',
+	'/images/galeria/gal-estructurametalica13.png',
+	'/images/galeria/gal-estructurametalica14.png',
+	'/images/galeria/gal-estructurametalica15.png',
+	'/images/galeria/gal-estructurametalica16.png',
+	'/images/galeria/gal-estructurametalica17.png',
+	'/images/galeria/gal-estructurametalica18.png',
+	'/images/galeria/gal-estructurametalica19.png',
+	'/images/galeria/gal-estructurametalica20.png',
+	'/images/galeria/gal-estructurametalica21.png',
+	'/images/galeria/gal-estructurametalica22.png',
+	'/images/galeria/gal-estructurametalica23.png',
+	'/images/galeria/gal-estructurametalica24.png',
+]
+---
+<section class="bg-gray-100 py-12">
+    <div class="container mx-auto px-6 lg:px-12">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-green-900">
+            Galería <br> de Productos
+        </h2>
+        <div class="relative overflow-hidden">
+            <button id="prevBtn" class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-primary text-white p-3 rounded-full shadow-md hover:bg-secondary hover:bg-opacity-75 transition duration-150 ease-in-out z-10">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+            <div id="gallery" class="flex transition-transform duration-500 ease-in-out">
+                {images.map(image => (
+                    <div class="min-w-[100%] sm:min-w-[100%] md:min-w-[33.33%] lg:min-w-[20%] p-2">
+                        <div class="bg-green-400 rounded-lg border-4 border-transparent transition duration-300 ease-in-out shadow-lg hover:bg-gradient-to-r hover:from-primary hover:to-secondary hover:border-transparent border-opacity-0 hover:shadow-lg">
+                            <img src={image} alt="Proyecto" loading="lazy" class="w-full object-contain rounded-md" />
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <button id="nextBtn" class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-primary text-white p-3 rounded-full shadow-md hover:bg-secondary hover:bg-opacity-75 transition duration-150 ease-in-out z-10">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+
+<script src="/scripts/gallery.js" defer></script>

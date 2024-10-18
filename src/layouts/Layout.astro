@@ -7,7 +7,7 @@ interface Props {
 
 const { title, description } = Astro.props;
 
-const metaDescription = description && description.trim() !== "" ? description : "Somos expertos en estructuras metálicas de alta calidad, proporcionando seguridad y confianza en cada proyecto a nivel nacional.";
+const metaDescription = description && description.trim() !== "" ? description : "Con más de 15 años de experiencia en el sector de estructuras metálicas, nuestra empresa se especializa en el diseño, fabricación y montaje de soluciones personalizadas. Ofrecemos una amplia gama de productos, incluyendo remolques agrícolas, remolques para maquinaria de carga pesada, remolques industriales de 1 y 2 ejes, remolques para botes, paneles solares, porta bobinas, porta escaleras, cuatrimotos, motos lineales, remolques para caballos, ganadería, grupos electrógenos y compresores. Nos enfocamos en la satisfacción del cliente, brindando un servicio integral que abarca desde la concepción del proyecto hasta su ejecución. Nuestro equipo está formado por especialistas altamente calificados en fabricación, instalación y mantenimiento, garantizando la más alta calidad y durabilidad en cada uno de nuestros productos.";
 
 const siteName = "Estructura Metálica Ato & Peña";
 
@@ -20,11 +20,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="keywords" content="estructuras metálicas, experiencia en estructuras metálicas, seguridad en entregas, confianza en productos metálicos, empresa de estructuras metálicas, soluciones metálicas, proyectos de construcción, estructuras metálicas a nivel nacional">
+		<meta name="keywords" content="Ofrecemos una amplia gama de productos, incluyendo remolques agrícolas, remolques para maquinaria de carga pesada, remolques industriales de 1 y 2 ejes, remolques para botes, paneles solares, porta bobinas, porta escaleras, cuatrimotos, motos lineales, remolques para caballos, ganadería, grupos electrógenos y compresores.">
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="robots" content="index, follow">
-		<meta property="og:title" content={title} />
+		<meta property="og:title" content={`${title} | ${siteName}`} />
 		<meta property="og:description" content={metaDescription} />
 		<meta property="og:type" content="website" />
 
@@ -34,6 +34,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 	<body>
 		<Loader/>
 		<slot />
+		<a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition duration-300">
+			<i class="fab fa-whatsapp fa-2x"></i>
+		</a>
 	</body>
 </html>
 <script src="/scripts/loader.js" defer></script>

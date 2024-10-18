@@ -3,10 +3,9 @@ import Loader from '../components/Loader.astro';
 interface Props {
 	title: string;
 	description: string;
-	url: string;
 }
 
-const { title, description, url } = Astro.props;
+const { title, description } = Astro.props;
 
 const metaDescription = description && description.trim() !== "" ? description : "Somos expertos en estructuras metálicas de alta calidad, proporcionando seguridad y confianza en cada proyecto a nivel nacional.";
 
@@ -21,12 +20,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="keywords" content="estructuras metálicas, experiencia en estructuras metálicas, seguridad en entregas, confianza en productos metálicos, empresa de estructuras metálicas, soluciones metálicas, proyectos de construcción, estructuras metálicas a nivel nacional">
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="robots" content="index, follow">
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={metaDescription} />
-		<meta property="og:url" content={url} />
 		<meta property="og:type" content="website" />
 
 		<title>{title} | {siteName}</title>

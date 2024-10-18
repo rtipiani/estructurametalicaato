@@ -12,9 +12,6 @@ const defaultLinks = [
 ];
 
 const links = (Astro.props.links && Astro.props.links.length > 0) ? Astro.props.links : defaultLinks;
-
-const currentPath = Astro.url.pathname;
-
 const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 ---
 <nav id="main-navbar" class="relative top-0 w-full z-30 shadow py-4">
@@ -28,7 +25,7 @@ const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1
             <div class="hidden md:flex space-x-2">
                 {
                     links.map(({ path, label }) => (
-                        <a href={path} class={`block px-5 py-2 rounded-md transition duration-300 ${currentPath ===path ? 'bg-gradient-to-l from-primary to-secondary text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
+                        <a href={path} class={`block px-5 py-2 rounded-md transition duration-300 nav-link`} data-path={path}>
                             {label || capitalize(path.slice(1))}
                         </a>
                     ))
@@ -47,7 +44,7 @@ const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1
         <div>
             {
                 links.map(({ path, label }) => (
-                    <a href={path} class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform ${currentPath === path ? 'bg-gradient-to-r from-primary to-secondary text-white shadow-md scale-105' : 'text-green-900 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-900 hover:text-white hover:scale-105'}`}>
+                    <a href={path} class={`nav-link block px-3 py-2 rounded-md transition duration-300 transform`} data-path={path}>
                         {label || capitalize(path.slice(1))}
                     </a>
                 ))

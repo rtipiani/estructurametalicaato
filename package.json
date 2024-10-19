@@ -10,15 +10,24 @@
     "astro": "astro"
   },
   "dependencies": {
-    "fontawesome": "file:awesome.me/kit-fd81123249@latest'",
     "@astrojs/tailwind": "^5.1.2",
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "astro": "^4.16.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fontawesome": "file:awesome.me/kit-fd81123249@latest'",
+    "nodemailer": "^6.9.15",
     "tailwindcss": "^3.4.13"
   },
   "devDependencies": {
     "@astrojs/node": "^8.3.4",
     "@astrojs/vercel": "^7.8.2"
-  }
+  },
+  "description": "```sh npm create astro@latest -- --template basics ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

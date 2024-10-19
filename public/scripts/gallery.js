@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const interval = setInterval(() => {
                 if (startValue < counter.endValue) {
                     startValue += increment;
-                    counter.element.innerText = Math.floor(startValue).toString() + counter.symbol; // Agrega el símbolo correspondiente
+                    counter.element.innerText = Math.floor(startValue).toString() + counter.symbol;
                 } else {
-                    counter.element.innerText = counter.endValue.toString() + counter.symbol; // Agrega el símbolo correspondiente
+                    counter.element.innerText = counter.endValue.toString() + counter.symbol;
                     clearInterval(interval);
                 }
             }, 100);

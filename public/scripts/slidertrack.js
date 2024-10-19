@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('resize', adjustItemsVisible);
         adjustItemsVisible();
 
-        // AutoPlay logic
         let autoPlayInterval;
         function startAutoPlay() {
             autoPlayInterval = setInterval(() => {
@@ -56,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     currentIndex = 0;
                 }
                 updateSlider();
-            }, 3000); // Adjust interval time as needed
+            }, 3000);
         }
 
         function stopAutoPlay() {

@@ -19,6 +19,7 @@
     "express": "^4.21.1",
     "fontawesome": "file:awesome.me/kit-fd81123249@latest'",
     "nodemailer": "^6.9.15",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.13"
   },
   "devDependencies": {

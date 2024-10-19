@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     const slidesData = [
         {
-            imgSrc: '/images/slider/slide1.png',
+            imgSrc: '/images/slider/slide1.webp',
             title: 'Experiencia y Calidad',
             description: 'Con más de 15 años de experiencia, Estructura Metálica Ato & Peña ofrece soluciones metálicas para remolques y carretas, hechas a la medida de cada cliente. Garantizamos calidad, eficiencia y el mejor soporte técnico del sector.',
         },
         {
-            imgSrc: '/images/slider/slide2.png',
+            imgSrc: '/images/slider/slide2.webp',
             title: 'Carretas Industriales',
             description: 'Fabricamos carretas robustas, diseñadas para soportar las exigencias de empresas de construcción y transporte. Con materiales de alta calidad, aseguramos máxima durabilidad y rendimiento en el traslado de cargas pesadas.',
         },
         {
-            imgSrc: '/images/slider/slide3.png',
+            imgSrc: '/images/slider/slide3.webp',
             title: 'Remolques Personalizados',
             description: 'Diseñamos y fabricamos remolques especializados para empresas mineras, agrícolas, industriales, telecomunicaciones y construcción. Adaptables y resistentes, que faciliten el traslado seguro, garantizando cada operación.',
         }
@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalSlides = slidesData.length;
     let autoSlideInterval;
 
-    // Inicializar las diapositivas en el slider
     slidesData.forEach(slide => {
         const slideElement = document.createElement('div');
         slideElement.className = "slide flex-shrink-0 w-full h-full relative";

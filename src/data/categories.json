@@ -2,61 +2,61 @@
     {
         "name": "Remolque agrícola",
         "slug": "remolque-agricola",
-        "imageUrl": "/images/productos/category1.png"
+        "imageUrl": "/images/productos/category1.webp"
     },
     {
         "name":"Remolque Para Maquinarias de Carga Pesada",
         "slug": "remolque-para-maquina-de-carga-pesada",
-        "imageUrl": "/images/productos/category2.png"
+        "imageUrl": "/images/productos/category2.webp"
     },
     {
         "name":"Remolque Industrial 1 Eje",
         "slug": "remolque-industrial-1-eje",
-        "imageUrl": "/images/productos/category3.png"
+        "imageUrl": "/images/productos/category3.webp"
     },
     {
         "name":"Remolque Industrial 2 Ejes",
         "slug": "remolque-industrial-2-ejes",
-        "imageUrl": "/images/productos/category4.png"
+        "imageUrl": "/images/productos/category4.webp"
     },
     {
         "name":"Remolque Para Bote",
         "slug": "remolque-para-botes",
-        "imageUrl": "/images/productos/category5.png"
+        "imageUrl": "/images/productos/category5.webp"
     },
     {
         "name":"remolque Para Panel Solar",
         "slug": "remolque-para-panel-solar",
-        "imageUrl": "/images/productos/category6.png"
+        "imageUrl": "/images/productos/category6.webp"
     },
     {
         "name":"Remolque Porta Bobina",
         "slug": "remolque-porta-bobina",
-        "imageUrl": "/images/productos/category7.png"
+        "imageUrl": "/images/productos/category7.webp"
     },
     {
         "name":"Remolque Porta Escalera",
         "slug": "remolque-porta-escalera",
-        "imageUrl": "/images/productos/category8.png"
+        "imageUrl": "/images/productos/category8.webp"
     },
     {
         "name":"Remolque Para Cuatrimoto",
         "slug": "remolque-para-cuatrimoto",
-        "imageUrl": "/images/productos/category9.png"
+        "imageUrl": "/images/productos/category9.webp"
     },
     {
         "name":"Remolque Para Moto",
         "slug": "remolque-para-moto",
-        "imageUrl": "/images/productos/category10.png"
+        "imageUrl": "/images/productos/category10.webp"
     },
     {
         "name":"Remolque Para Caballo - Ganadería",
         "slug": "remolque-para-caballo-ganaderia",
-        "imageUrl": "/images/productos/category11.png"
+        "imageUrl": "/images/productos/category11.webp"
     },
     {
         "name":"Remolque Grupo Electrógeno - Compresor",
         "slug": "remolque-grupo-electrogeno-compresor",
-        "imageUrl": "/images/productos/category12.png"
+        "imageUrl": "/images/productos/category12.webp"
     }
 ]

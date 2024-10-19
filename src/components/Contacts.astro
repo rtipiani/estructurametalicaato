@@ -1,13 +1,13 @@
 <section class="py-10 bg-gradient-to-b from-gray-100 to-gray-200">
-    <div class="max-w-7xl mx-auto px-4 lg:px-0">
+    <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-green-900 leading-tight text-center">
             Contáctanos
         </h2>
-        <p class="mb-12 text-lg text-gray-600 text-center max-w-2xl mx-auto">
+        <p class="mb-4 text-lg text-gray-600 text-center max-w-2xl mx-auto">
             Estamos aquí para ayudarte. <br> Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
         </p>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div class="bg-white rounded-lg shadow-lg p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-6">
+            <div class="bg-white rounded-lg border-2 border-primary border-opacity-30 shadow-lg p-8 mt-6">
                 <form action="/api/send-email" method="POST" id="contact-form" class="space-y-6" aria-label="Formulario de contacto">
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
@@ -53,7 +53,7 @@
                     </button>
                 </form>
             </div>
-            <div class="bg-white rounded-lg p-6 sm:p-8 md:p-10 lg:p-12">
+            <div class="bg-white rounded-lg border-2 border-primary border-opacity-30 p-8 md:p-12 lg:p-12 mt-6 shadow-lg">
                 <h3 class="text-xl sm:text-2xl font-bold mb-4 text-green-900 text-center">
                     Información de Contacto
                 </h3>
@@ -62,20 +62,37 @@
                     <span class="font-bold">Teléfono:</span>
                 </div>
                 <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
-                    (+51) 995 374 449
+                    <a href="tel:995374449">
+                        <strong class="text-secondary">-</strong> (+51) 995 374 449
+                    </a>
+                </p>
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
+                    <a href="tel:989403067">
+                        <strong class="text-secondary">-</strong> (+51) 989 403 067
+                    </a>
+                </p>
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
+                    <a href="tel:976732526">
+                        <strong class="text-secondary">-</strong> (+51) 976 732 526
+                    </a>
+                </p>
+                <p class="mb-5 text-gray-600 text-xs sm:text-sm md:text-base">
+                    <a href="tel:016213846">
+                        <strong class="text-secondary">-</strong> (+51) 01 621 3846
+                    </a>
                 </p>
                 <div class="mb-1 flex items-center">
                     <i class="fas fa-map-marker-alt mr-2 text-secondary"></i>
                     <span class="font-bold">Dirección:</span>
                 </div>
-                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
-                    Jr. Vizcardo y Guzman 448, San Martín de Porres.
+                <p class="mb-5 text-gray-600 text-xs sm:text-sm md:text-base">
+                    Jr. Vizcardo y Guzman 448, Urb. Los Libertadores, San Martín de Porres.
                 </p>
                 <div class="mb-1 flex items-center">
                     <i class="fas fa-clock mr-2 text-secondary"></i>
                     <span class="font-bold">Horario de Atención:</span>
                 </div>
-                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base">
+                <p class="mb-5 text-gray-600 text-xs sm:text-sm md:text-base">
                     Lunes a Sábado: 8:00 AM - 7:00 PM
                 </p>
                 <div class="mb-1 flex items-center">
@@ -83,9 +100,12 @@
                     <span class="font-bold">Correo Electrónico:</span>
                 </div>
                 <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base leading-tight">
-                    ventas@estructurametalicaato.com
+                    <strong class="text-secondary">-</strong> ventas@estructurametalicaato.com
                 </p>
-                <div class="flex flex-wrap space-x-2 mt-4">
+                <p class="mb-2 text-gray-600 text-xs sm:text-sm md:text-base leading-tight">
+                    <strong class="text-secondary">-</strong> cotizacion@estructurametalicaato.com
+                </p>
+                <div class="flex flex-wrap space-x-4 mt-8">
                     <a href="https://www.facebook.com/estructurametalicaato/" class="text-secondary hover:text-custom transition" target="_blank">
                         <i class="fab fa-facebook fa-2x"></i>
                     </a>

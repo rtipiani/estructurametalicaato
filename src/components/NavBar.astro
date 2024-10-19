@@ -14,12 +14,12 @@ const defaultLinks = [
 const links = (Astro.props.links && Astro.props.links.length > 0) ? Astro.props.links : defaultLinks;
 const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 ---
-<nav id="main-navbar" class="relative top-0 w-full z-30 shadow py-4">
+<nav id="main-navbar" class="relative top-0 w-full z-30 shadow py-4 transition-all duration-500 ease-in-out">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between items-center h-16">
             <div class="flex-shrink-0">
                 <a href="/">
-                    <img src="/images/logo.png" alt="Estructura Metálica Ato & Peña" class="w-32 h-auto">
+                    <img src="/images/logo.webp" alt="Estructura Metálica Ato & Peña" class="w-32 h-auto">
                 </a>
             </div>
             <div class="hidden md:flex space-x-2">

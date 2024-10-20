@@ -21,17 +21,39 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="keywords" content="Ofrecemos una amplia gama de productos, incluyendo remolques agrícolas, remolques para maquinaria de carga pesada, remolques industriales de 1 y 2 ejes, remolques para botes, paneles solares, porta bobinas, porta escaleras, cuatrimotos, motos lineales, remolques para caballos, ganadería, grupos electrógenos y compresores.">
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="robots" content="index, follow">
 		<meta property="og:title" content={`${title} | ${siteName}`} />
 		<meta property="og:description" content={metaDescription} />
 		<meta property="og:type" content="website" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 
 		<title>{title} | {siteName}</title>
 		<link rel="stylesheet" href="/styles/global.css">
+		<script>
+			(function(w,d,s,l,i){
+				w[l]=w[l]||[];
+				w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+
+				var f=d.getElementsByTagName(s)[0];
+				var j = d.createElement(s) as HTMLScriptElement; // Aquí especificamos que 'j' es un 'HTMLScriptElement'
+				var dl = l != 'dataLayer' ? '&l='+l : '';
+
+				j.async = true; // Ahora no debería marcar error ya que 'async' existe en 'HTMLScriptElement'
+				j.src = 'https://www.googletagmanager.com/gtm.js?id='+i+dl; // También para 'src'
+
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-KTB7VZNS');
+		</script>
 	</head>
 	<body>
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTB7VZNS"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
 		<Loader/>
 		<slot />
 		<a href="https://wa.me/+51995374449?text=Hola%20*Estructura%20Metálica%20Ato%20y%20Peña*,%20estoy%20interesado%20en%20mayor%20información%20sobre%20tus%20productos%20y%20servicios." target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition duration-300">
